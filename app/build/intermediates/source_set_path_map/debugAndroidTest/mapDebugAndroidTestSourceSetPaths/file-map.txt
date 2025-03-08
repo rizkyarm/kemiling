@@ -1,0 +1,6 @@
+com.android.kemilingcom.test.app-core-1.5.0-0 C:\Users\rizky\.gradle\caches\transforms-4\23a70cea524ec49902ecc38b2d0e0120\transformed\core-1.5.0\res
+com.android.kemilingcom.test.app-annotation-experimental-1.4.0-1 C:\Users\rizky\.gradle\caches\transforms-4\5c282c4be2b1711001e5b02229582839\transformed\annotation-experimental-1.4.0\res
+com.android.kemilingcom.test.app-androidTest-2 I:\Ormawa\Kemilingcom2\app\build\generated\res\resValues\androidTest\debug
+com.android.kemilingcom.test.app-mergeDebugAndroidTestResources-3 I:\Ormawa\Kemilingcom2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.android.kemilingcom.test.app-mergeDebugAndroidTestResources-4 I:\Ormawa\Kemilingcom2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.android.kemilingcom.test.app-debugAndroidTest-5 I:\Ormawa\Kemilingcom2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

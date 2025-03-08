@@ -1,0 +1,584 @@
+-- Merging decision tree log ---
+manifest
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:2:1-87:12
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\rizky\.gradle\caches\transforms-4\b5d3fb99a870081e9af6b7897a3587f6\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\3801e17bc78e6e2d6520449e74f8d2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\84713b10e54ae1f7b0ff9778bc80465a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\61dca28e3c0710293634e3e4d203e845\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\rizky\.gradle\caches\transforms-4\8b88d9bc1e077503e009246275c946bd\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rizky\.gradle\caches\transforms-4\760963132364fdb95f12cfa2c1ce24f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:6.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f2791cd3bc2bc307a65443ba867d9fde\transformed\lottie-6.6.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\20230fa2077a509c73f27a26a53b142f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\49da479a9be3d3a95174356c12b4d177\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\907b71cc567eb5329ac0f2c654bee57b\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d8d458a14e8947ea755e4b6ff500b1e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\rizky\.gradle\caches\transforms-4\48c55460771d37fa8f1eb136f0b1c5d2\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-stats:17.1.0] C:\Users\rizky\.gradle\caches\transforms-4\df137e5774c00eb2986c4c09bb223127\transformed\play-services-stats-17.1.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\16b005d0698940498dcc634e8ce3f25d\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\5a7fba862465df315bb9a7fab584f442\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\rizky\.gradle\caches\transforms-4\b6db90dde926460879ca4647f22f6d61\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\95101a125e2c32a99eed828b3280e851\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\19bde54edb800e35da9afa295136e7e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\0430de366e2a412fdce438b627bca046\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\rizky\.gradle\caches\transforms-4\26560e4a5ea19012d30988f62e3da9b9\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\4c7145d3036c1fe169890b7745e290ed\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\608757fc4578756b6339698b569656b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\509c53caed23a2790017fc80154dc3eb\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b4ff75109f263579bbe25c0367f06d72\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\c03dcb617c03a6c89ed4979557e84bea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\5a2c98704ee88bf8cc16913dd3eb46dd\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\a19b7cd728c7e1d3dcdda7c73cc29be1\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1d40c06f34143e2b7ae3fd4a145a6ee6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\af3214afa38203128aa493d71be13a62\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\52a2182684fdd2bc7a0be93ded637a7a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b321644519847d338e96c9de17453a05\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\c64bbf9ccec4ae34e14957ede549cea2\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\1cd935685bf682f6758c90aa5bfc383c\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\34af5f255af10d1997533cf59850889c\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\3235dc8feb22330c29157fd72d8c39c3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\6b49ac552200876a9460ddbe2676b141\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0065bb403059a3f179ab8f493990a9e3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\ad243d9a66a1750a89c45be42a7b0085\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0316add6f395abe67854e74eb806e37f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f5fefcdacdc905373a797fdae0c3be81\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\d5e959e8b4791afc1f1bc7ffd94131ce\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\57acffeb6836d63deaa69becb02bb2fe\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\03e9595b2ac1db4d0a45f54b2dd8ceed\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\958227238ab11a16d93b73c0ec376295\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d2a08bf38fe2b2bdc609929d13cd7ae8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\9e4f8a2e31d2cd05e25dad25b7f9873d\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\7ffbd8438f3adadabd43621a99a2e5ed\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\fa5c46406dcb81d776db6b838fcd75af\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f8ffefe996bda260d0dbd042dd97dc15\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1b05f9b84843c70e52334f25053ad372\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\7e6fc91e7e429ce685987a4278533869\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rizky\.gradle\caches\transforms-4\309f8b4bbb4f29504f48a2d4e119ec55\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\rizky\.gradle\caches\transforms-4\f109edb7d23eaa41bd222c7079061cfb\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\b6fa637e095350089414b311af1c55d3\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rizky\.gradle\caches\transforms-4\5c282c4be2b1711001e5b02229582839\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\rizky\.gradle\caches\transforms-4\1cdb078b57c6f9590e245c21534ec9e3\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:12:5-85:19
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:12:5-85:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\rizky\.gradle\caches\transforms-4\8b88d9bc1e077503e009246275c946bd\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\rizky\.gradle\caches\transforms-4\8b88d9bc1e077503e009246275c946bd\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rizky\.gradle\caches\transforms-4\760963132364fdb95f12cfa2c1ce24f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rizky\.gradle\caches\transforms-4\760963132364fdb95f12cfa2c1ce24f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:6.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f2791cd3bc2bc307a65443ba867d9fde\transformed\lottie-6.6.2\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f2791cd3bc2bc307a65443ba867d9fde\transformed\lottie-6.6.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\rizky\.gradle\caches\transforms-4\48c55460771d37fa8f1eb136f0b1c5d2\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\rizky\.gradle\caches\transforms-4\48c55460771d37fa8f1eb136f0b1c5d2\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.1.0] C:\Users\rizky\.gradle\caches\transforms-4\df137e5774c00eb2986c4c09bb223127\transformed\play-services-stats-17.1.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.1.0] C:\Users\rizky\.gradle\caches\transforms-4\df137e5774c00eb2986c4c09bb223127\transformed\play-services-stats-17.1.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\16b005d0698940498dcc634e8ce3f25d\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\16b005d0698940498dcc634e8ce3f25d\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\fa5c46406dcb81d776db6b838fcd75af\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\fa5c46406dcb81d776db6b838fcd75af\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\rizky\.gradle\caches\transforms-4\f109edb7d23eaa41bd222c7079061cfb\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\rizky\.gradle\caches\transforms-4\f109edb7d23eaa41bd222c7079061cfb\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+	android:extractNativeLibs
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:19:9-41
+	android:hardwareAccelerated
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:17:9-43
+	android:fullBackupContent
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:16:9-54
+	android:roundIcon
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:20:9-50
+	tools:targetApi
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:23:9-35
+	android:icon
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:22:9-65
+	android:enableOnBackInvokedCallback
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:15:9-51
+	android:dataExtractionRules
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:14:9-65
+activity#com.android.kemilingcom.rekening
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:25:13-37
+activity#com.android.kemilingcom.ConfirmationTransaction
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:28:13-52
+activity#com.android.kemilingcom.FullScreenImageActivity
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:31:13-52
+activity#com.android.kemilingcom.transaksi
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:34:13-38
+activity#com.android.kemilingcom.afterPaid
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:36:9-38:61
+	android:theme
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:38:13-58
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:37:13-38
+activity#com.android.kemilingcom.myAccount
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:40:13-38
+activity#com.android.kemilingcom.addProductUmkm
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:43:13-43
+activity#com.android.kemilingcom.PilihAddProduct
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:46:13-44
+activity#com.android.kemilingcom.addProductWisata
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:49:13-45
+activity#com.android.kemilingcom.activityMyProduct
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:52:13-46
+activity#com.android.kemilingcom.activity_account
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:55:13-45
+activity#com.android.kemilingcom.activity_terdekat
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:58:13-46
+activity#com.android.kemilingcom.activity_product
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:61:13-45
+activity#com.android.kemilingcom.activity_daftar
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:64:13-44
+activity#com.android.kemilingcom.activity_beranda
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:67:13-45
+activity#com.android.kemilingcom.CheckOut
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:70:13-37
+activity#com.android.kemilingcom.activity_login
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:72:9-80:20
+	android:exported
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:73:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:75:13-79:29
+action#android.intent.action.MAIN
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:76:25-66
+category#android.intent.category.LAUNCHER
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:78:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:82:9-84:71
+	android:value
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:84:13-68
+	android:name
+		ADDED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:83:13-58
+uses-sdk
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\rizky\.gradle\caches\transforms-4\b5d3fb99a870081e9af6b7897a3587f6\transformed\viewbinding-8.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\rizky\.gradle\caches\transforms-4\b5d3fb99a870081e9af6b7897a3587f6\transformed\viewbinding-8.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\3801e17bc78e6e2d6520449e74f8d2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\3801e17bc78e6e2d6520449e74f8d2d2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\84713b10e54ae1f7b0ff9778bc80465a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\84713b10e54ae1f7b0ff9778bc80465a\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\61dca28e3c0710293634e3e4d203e845\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\61dca28e3c0710293634e3e4d203e845\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\rizky\.gradle\caches\transforms-4\8b88d9bc1e077503e009246275c946bd\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\rizky\.gradle\caches\transforms-4\8b88d9bc1e077503e009246275c946bd\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rizky\.gradle\caches\transforms-4\760963132364fdb95f12cfa2c1ce24f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\rizky\.gradle\caches\transforms-4\760963132364fdb95f12cfa2c1ce24f6\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:6.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f2791cd3bc2bc307a65443ba867d9fde\transformed\lottie-6.6.2\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f2791cd3bc2bc307a65443ba867d9fde\transformed\lottie-6.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\20230fa2077a509c73f27a26a53b142f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\20230fa2077a509c73f27a26a53b142f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\49da479a9be3d3a95174356c12b4d177\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\rizky\.gradle\caches\transforms-4\49da479a9be3d3a95174356c12b4d177\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\907b71cc567eb5329ac0f2c654bee57b\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\907b71cc567eb5329ac0f2c654bee57b\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d8d458a14e8947ea755e4b6ff500b1e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d8d458a14e8947ea755e4b6ff500b1e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\rizky\.gradle\caches\transforms-4\48c55460771d37fa8f1eb136f0b1c5d2\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\rizky\.gradle\caches\transforms-4\48c55460771d37fa8f1eb136f0b1c5d2\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.1.0] C:\Users\rizky\.gradle\caches\transforms-4\df137e5774c00eb2986c4c09bb223127\transformed\play-services-stats-17.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.1.0] C:\Users\rizky\.gradle\caches\transforms-4\df137e5774c00eb2986c4c09bb223127\transformed\play-services-stats-17.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\16b005d0698940498dcc634e8ce3f25d\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\16b005d0698940498dcc634e8ce3f25d\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\5a7fba862465df315bb9a7fab584f442\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\5a7fba862465df315bb9a7fab584f442\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\rizky\.gradle\caches\transforms-4\b6db90dde926460879ca4647f22f6d61\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\rizky\.gradle\caches\transforms-4\b6db90dde926460879ca4647f22f6d61\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\95101a125e2c32a99eed828b3280e851\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\95101a125e2c32a99eed828b3280e851\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\19bde54edb800e35da9afa295136e7e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\19bde54edb800e35da9afa295136e7e4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\0430de366e2a412fdce438b627bca046\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\0430de366e2a412fdce438b627bca046\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\rizky\.gradle\caches\transforms-4\26560e4a5ea19012d30988f62e3da9b9\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\rizky\.gradle\caches\transforms-4\26560e4a5ea19012d30988f62e3da9b9\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\4c7145d3036c1fe169890b7745e290ed\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\4c7145d3036c1fe169890b7745e290ed\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\608757fc4578756b6339698b569656b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\608757fc4578756b6339698b569656b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\509c53caed23a2790017fc80154dc3eb\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\509c53caed23a2790017fc80154dc3eb\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b4ff75109f263579bbe25c0367f06d72\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b4ff75109f263579bbe25c0367f06d72\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\c03dcb617c03a6c89ed4979557e84bea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\c03dcb617c03a6c89ed4979557e84bea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\5a2c98704ee88bf8cc16913dd3eb46dd\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\5a2c98704ee88bf8cc16913dd3eb46dd\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\a19b7cd728c7e1d3dcdda7c73cc29be1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\a19b7cd728c7e1d3dcdda7c73cc29be1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1d40c06f34143e2b7ae3fd4a145a6ee6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1d40c06f34143e2b7ae3fd4a145a6ee6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\af3214afa38203128aa493d71be13a62\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\rizky\.gradle\caches\transforms-4\af3214afa38203128aa493d71be13a62\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\52a2182684fdd2bc7a0be93ded637a7a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\52a2182684fdd2bc7a0be93ded637a7a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b321644519847d338e96c9de17453a05\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\b321644519847d338e96c9de17453a05\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\c64bbf9ccec4ae34e14957ede549cea2\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\c64bbf9ccec4ae34e14957ede549cea2\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\1cd935685bf682f6758c90aa5bfc383c\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\1cd935685bf682f6758c90aa5bfc383c\transformed\lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\34af5f255af10d1997533cf59850889c\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\34af5f255af10d1997533cf59850889c\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\3235dc8feb22330c29157fd72d8c39c3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\3235dc8feb22330c29157fd72d8c39c3\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\6b49ac552200876a9460ddbe2676b141\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\6b49ac552200876a9460ddbe2676b141\transformed\lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0065bb403059a3f179ab8f493990a9e3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0065bb403059a3f179ab8f493990a9e3\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\ad243d9a66a1750a89c45be42a7b0085\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\ad243d9a66a1750a89c45be42a7b0085\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0316add6f395abe67854e74eb806e37f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\0316add6f395abe67854e74eb806e37f\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f5fefcdacdc905373a797fdae0c3be81\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\f5fefcdacdc905373a797fdae0c3be81\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\d5e959e8b4791afc1f1bc7ffd94131ce\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\d5e959e8b4791afc1f1bc7ffd94131ce\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\57acffeb6836d63deaa69becb02bb2fe\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\57acffeb6836d63deaa69becb02bb2fe\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\03e9595b2ac1db4d0a45f54b2dd8ceed\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\03e9595b2ac1db4d0a45f54b2dd8ceed\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\958227238ab11a16d93b73c0ec376295\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\958227238ab11a16d93b73c0ec376295\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d2a08bf38fe2b2bdc609929d13cd7ae8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\d2a08bf38fe2b2bdc609929d13cd7ae8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\9e4f8a2e31d2cd05e25dad25b7f9873d\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\rizky\.gradle\caches\transforms-4\9e4f8a2e31d2cd05e25dad25b7f9873d\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\7ffbd8438f3adadabd43621a99a2e5ed\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\rizky\.gradle\caches\transforms-4\7ffbd8438f3adadabd43621a99a2e5ed\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\fa5c46406dcb81d776db6b838fcd75af\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\fa5c46406dcb81d776db6b838fcd75af\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f8ffefe996bda260d0dbd042dd97dc15\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f8ffefe996bda260d0dbd042dd97dc15\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1b05f9b84843c70e52334f25053ad372\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\1b05f9b84843c70e52334f25053ad372\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\7e6fc91e7e429ce685987a4278533869\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rizky\.gradle\caches\transforms-4\7e6fc91e7e429ce685987a4278533869\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rizky\.gradle\caches\transforms-4\309f8b4bbb4f29504f48a2d4e119ec55\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rizky\.gradle\caches\transforms-4\309f8b4bbb4f29504f48a2d4e119ec55\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\rizky\.gradle\caches\transforms-4\f109edb7d23eaa41bd222c7079061cfb\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\rizky\.gradle\caches\transforms-4\f109edb7d23eaa41bd222c7079061cfb\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\b6fa637e095350089414b311af1c55d3\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\rizky\.gradle\caches\transforms-4\b6fa637e095350089414b311af1c55d3\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rizky\.gradle\caches\transforms-4\5c282c4be2b1711001e5b02229582839\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\rizky\.gradle\caches\transforms-4\5c282c4be2b1711001e5b02229582839\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\rizky\.gradle\caches\transforms-4\1cdb078b57c6f9590e245c21534ec9e3\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\rizky\.gradle\caches\transforms-4\1cdb078b57c6f9590e245c21534ec9e3\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:27:22-65
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:5-97
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:22-94
+uses-permission#com.android.kemilingcom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:5-97
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+MERGED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:22-94
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rizky\.gradle\caches\transforms-4\a6b03707966bbc1d6f08c01dbf7897c5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.android.kemilingcom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
