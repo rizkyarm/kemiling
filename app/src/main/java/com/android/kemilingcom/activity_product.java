@@ -9,10 +9,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.android.volley.Request;
@@ -131,7 +135,48 @@ public class activity_product extends AppCompatActivity implements OnMapReadyCal
             }
         });
 
+        btn_location = findViewById(R.id.btn_location);
+        btn_location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showMapFragment();
+            }
+        });
+
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_container);
+
+                if (fragment instanceof FragmentMaps) {
+                    // Jika MapsFragment sedang ditampilkan, tutup fragment
+                    fragmentManager.popBackStack();
+                    findViewById(R.id.fragment_container).setVisibility(View.GONE);
+                } else {
+                    // Jika tidak ada fragment yang ditampilkan, lakukan back seperti biasa
+                    finish();
+                }
+            }
+        });
+
+
     }
+
+    private void showMapFragment() {
+        FragmentMaps mapsFragment = FragmentMaps.newInstance(productLat, productLng);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+
+        transaction.replace(R.id.fragment_container, mapsFragment);
+        transaction.addToBackStack(null);  // Tambahkan ke BackStack agar bisa dihapus nanti
+        transaction.commit();
+
+        findViewById(R.id.fragment_container).setVisibility(View.VISIBLE);
+    }
+
+
+
 
 
 

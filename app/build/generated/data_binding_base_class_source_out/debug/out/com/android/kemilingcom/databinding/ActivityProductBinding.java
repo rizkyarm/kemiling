@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -36,6 +37,9 @@ public final class ActivityProductBinding implements ViewBinding {
   public final Button btnPesan;
 
   @NonNull
+  public final FrameLayout fragmentContainer;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
@@ -55,7 +59,8 @@ public final class ActivityProductBinding implements ViewBinding {
 
   private ActivityProductBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayout bottomButtons, @NonNull ImageView btnBack, @NonNull Button btnLocation,
-      @NonNull Button btnPesan, @NonNull ConstraintLayout main, @NonNull TextView productPrice,
+      @NonNull Button btnPesan, @NonNull FrameLayout fragmentContainer,
+      @NonNull ConstraintLayout main, @NonNull TextView productPrice,
       @NonNull TextView titleProduct, @NonNull View view2, @NonNull ViewPager2 viewPager,
       @NonNull ViewPager2 viewPagerDescriptionMap) {
     this.rootView = rootView;
@@ -63,6 +68,7 @@ public final class ActivityProductBinding implements ViewBinding {
     this.btnBack = btnBack;
     this.btnLocation = btnLocation;
     this.btnPesan = btnPesan;
+    this.fragmentContainer = fragmentContainer;
     this.main = main;
     this.productPrice = productPrice;
     this.titleProduct = titleProduct;
@@ -122,6 +128,12 @@ public final class ActivityProductBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fragment_container;
+      FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.product_price;
@@ -155,8 +167,8 @@ public final class ActivityProductBinding implements ViewBinding {
       }
 
       return new ActivityProductBinding((ConstraintLayout) rootView, bottomButtons, btnBack,
-          btnLocation, btnPesan, main, productPrice, titleProduct, view2, viewPager,
-          viewPagerDescriptionMap);
+          btnLocation, btnPesan, fragmentContainer, main, productPrice, titleProduct, view2,
+          viewPager, viewPagerDescriptionMap);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

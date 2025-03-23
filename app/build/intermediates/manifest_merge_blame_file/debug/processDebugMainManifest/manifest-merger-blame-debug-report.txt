@@ -9,301 +9,301 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:5:5-67
-11-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:5:22-64
+11-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:6:5-79
-12-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:6:22-76
+12-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:6:5-79
+12-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:7:5-80
-13-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:7:22-77
+13-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:7:5-80
+13-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:8:5-81
-14-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:8:22-78
+14-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:8:5-81
+14-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:9:5-79
-15-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:9:22-76
+15-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:9:5-79
+15-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:10:5-81
-16-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:10:22-78
+16-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:10:5-81
+16-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:10:22-78
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:28:9-32
 21
 22    <queries>
-22-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+22-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:30:5-34:15
 23
 24        <!-- Needs to be explicitly declared on Android R+ -->
 25        <package android:name="com.google.android.apps.maps" />
-25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
-25-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+25-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:33:18-61
 26    </queries> <!-- Optional permission for Analytics to run. -->
 27    <uses-permission android:name="android.permission.WAKE_LOCK" />
-27-->[com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:27:5-68
-27-->[com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:27:22-65
+27-->[com.google.android.gms:play-services-analytics-impl:18.2.0] /home/rar/.gradle/caches/transforms-4/31f308b699c2ea4313dc978fc3dda83d/transformed/play-services-analytics-impl-18.2.0/AndroidManifest.xml:27:5-68
+27-->[com.google.android.gms:play-services-analytics-impl:18.2.0] /home/rar/.gradle/caches/transforms-4/31f308b699c2ea4313dc978fc3dda83d/transformed/play-services-analytics-impl-18.2.0/AndroidManifest.xml:27:22-65
 28    <uses-permission android:name="com.android.kemilingcom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-28-->[com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:5-97
-28-->[com.google.android.gms:play-services-analytics-impl:18.2.0] C:\Users\rizky\.gradle\caches\transforms-4\31f308b699c2ea4313dc978fc3dda83d\transformed\play-services-analytics-impl-18.2.0\AndroidManifest.xml:28:22-94
+28-->[com.google.android.gms:play-services-analytics-impl:18.2.0] /home/rar/.gradle/caches/transforms-4/31f308b699c2ea4313dc978fc3dda83d/transformed/play-services-analytics-impl-18.2.0/AndroidManifest.xml:28:5-97
+28-->[com.google.android.gms:play-services-analytics-impl:18.2.0] /home/rar/.gradle/caches/transforms-4/31f308b699c2ea4313dc978fc3dda83d/transformed/play-services-analytics-impl-18.2.0/AndroidManifest.xml:28:22-94
 29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-29-->[com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:5-79
-29-->[com.google.android.gms:play-services-ads-identifier:18.1.0] C:\Users\rizky\.gradle\caches\transforms-4\374685a4f0fbcfbd4fc3f1523ef9af58\transformed\play-services-ads-identifier-18.1.0\AndroidManifest.xml:7:22-76
+29-->[com.google.android.gms:play-services-ads-identifier:18.1.0] /home/rar/.gradle/caches/transforms-4/374685a4f0fbcfbd4fc3f1523ef9af58/transformed/play-services-ads-identifier-18.1.0/AndroidManifest.xml:7:5-79
+29-->[com.google.android.gms:play-services-ads-identifier:18.1.0] /home/rar/.gradle/caches/transforms-4/374685a4f0fbcfbd4fc3f1523ef9af58/transformed/play-services-ads-identifier-18.1.0/AndroidManifest.xml:7:22-76
 30
 31    <permission
-31-->[androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+31-->[androidx.core:core:1.13.0] /home/rar/.gradle/caches/transforms-4/e024b1675e93ca26ecc1932c24c7c53a/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 32        android:name="com.android.kemilingcom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-32-->[androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+32-->[androidx.core:core:1.13.0] /home/rar/.gradle/caches/transforms-4/e024b1675e93ca26ecc1932c24c7c53a/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
 33        android:protectionLevel="signature" />
-33-->[androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+33-->[androidx.core:core:1.13.0] /home/rar/.gradle/caches/transforms-4/e024b1675e93ca26ecc1932c24c7c53a/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 34
 35    <application
-35-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:12:5-85:19
+35-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:12:5-85:19
 36        android:allowBackup="true"
-36-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:13:9-35
+36-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:13:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.13.0] C:\Users\rizky\.gradle\caches\transforms-4\e024b1675e93ca26ecc1932c24c7c53a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+37-->[androidx.core:core:1.13.0] /home/rar/.gradle/caches/transforms-4/e024b1675e93ca26ecc1932c24c7c53a/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 38        android:dataExtractionRules="@xml/data_extraction_rules"
-38-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:14:9-65
+38-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:14:9-65
 39        android:debuggable="true"
 40        android:enableOnBackInvokedCallback="true"
-40-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:15:9-51
+40-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:15:9-51
 41        android:extractNativeLibs="true"
 42        android:fullBackupContent="@xml/backup_rules"
-42-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:16:9-54
+42-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:16:9-54
 43        android:hardwareAccelerated="true"
-43-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:17:9-43
+43-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:17:9-43
 44        android:icon="@mipmap/logo_launcher"
-44-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:18:9-45
+44-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:18:9-45
 45        android:label="@string/app_name"
-45-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:19:9-41
+45-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:19:9-41
 46        android:roundIcon="@mipmap/logo_launcher"
-46-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:20:9-50
+46-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:20:9-50
 47        android:supportsRtl="true"
-47-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:21:9-35
+47-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:21:9-35
 48        android:testOnly="true"
 49        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-49-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:22:9-65
+49-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:22:9-65
 50        <activity
-50-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:24:9-26:40
+50-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:24:9-26:40
 51            android:name="com.android.kemilingcom.rekening"
-51-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:25:13-37
+51-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:25:13-37
 52            android:exported="false" />
-52-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:26:13-37
+52-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:26:13-37
 53        <activity
-53-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:27:9-29:40
+53-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:27:9-29:40
 54            android:name="com.android.kemilingcom.ConfirmationTransaction"
-54-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:28:13-52
+54-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:28:13-52
 55            android:exported="false" />
-55-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:29:13-37
+55-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:29:13-37
 56        <activity
-56-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:30:9-32:40
+56-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:30:9-32:40
 57            android:name="com.android.kemilingcom.FullScreenImageActivity"
-57-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:31:13-52
+57-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:31:13-52
 58            android:exported="false" />
-58-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:32:13-37
+58-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:32:13-37
 59        <activity
-59-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:33:9-35:40
+59-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:33:9-35:40
 60            android:name="com.android.kemilingcom.transaksi"
-60-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:34:13-38
+60-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:34:13-38
 61            android:exported="false" />
-61-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:35:13-37
+61-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:35:13-37
 62        <activity
-62-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:36:9-38:61
+62-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:36:9-38:61
 63            android:name="com.android.kemilingcom.afterPaid"
-63-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:37:13-38
+63-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:37:13-38
 64            android:theme="@style/Theme.AppCompat.Dialog" />
-64-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:38:13-58
+64-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:38:13-58
 65        <activity
-65-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:39:9-41:40
+65-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:39:9-41:40
 66            android:name="com.android.kemilingcom.myAccount"
-66-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:40:13-38
+66-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:40:13-38
 67            android:exported="false" />
-67-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:41:13-37
+67-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:41:13-37
 68        <activity
-68-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:42:9-44:40
+68-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:42:9-44:40
 69            android:name="com.android.kemilingcom.addProductUmkm"
-69-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:43:13-43
+69-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:43:13-43
 70            android:exported="false" />
-70-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:44:13-37
+70-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:44:13-37
 71        <activity
-71-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:45:9-47:40
+71-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:45:9-47:40
 72            android:name="com.android.kemilingcom.PilihAddProduct"
-72-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:46:13-44
+72-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:46:13-44
 73            android:exported="false" />
-73-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:47:13-37
+73-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:47:13-37
 74        <activity
-74-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:48:9-50:40
+74-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:48:9-50:40
 75            android:name="com.android.kemilingcom.addProductWisata"
-75-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:49:13-45
+75-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:49:13-45
 76            android:exported="false" />
-76-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:50:13-37
+76-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:50:13-37
 77        <activity
-77-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:51:9-53:40
+77-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:51:9-53:40
 78            android:name="com.android.kemilingcom.activityMyProduct"
-78-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:52:13-46
+78-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:52:13-46
 79            android:exported="false" />
-79-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:53:13-37
+79-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:53:13-37
 80        <activity
-80-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:54:9-56:40
+80-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:54:9-56:40
 81            android:name="com.android.kemilingcom.activity_account"
-81-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:55:13-45
+81-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:55:13-45
 82            android:exported="false" />
-82-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:56:13-37
+82-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:56:13-37
 83        <activity
-83-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:57:9-59:40
+83-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:57:9-59:40
 84            android:name="com.android.kemilingcom.activity_terdekat"
-84-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:58:13-46
+84-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:58:13-46
 85            android:exported="false" />
-85-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:59:13-37
+85-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:59:13-37
 86        <activity
-86-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:60:9-62:40
+86-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:60:9-62:40
 87            android:name="com.android.kemilingcom.activity_product"
-87-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:61:13-45
+87-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:61:13-45
 88            android:exported="false" />
-88-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:62:13-37
+88-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:62:13-37
 89        <activity
-89-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:63:9-65:40
+89-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:63:9-65:40
 90            android:name="com.android.kemilingcom.activity_daftar"
-90-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:64:13-44
+90-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:64:13-44
 91            android:exported="false" />
-91-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:65:13-37
+91-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:65:13-37
 92        <activity
-92-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:66:9-68:40
+92-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:66:9-68:40
 93            android:name="com.android.kemilingcom.activity_beranda"
-93-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:67:13-45
+93-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:67:13-45
 94            android:exported="false" />
-94-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:68:13-37
+94-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:68:13-37
 95        <activity
-95-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:69:9-71:40
+95-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:69:9-71:40
 96            android:name="com.android.kemilingcom.CheckOut"
-96-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:70:13-37
+96-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:70:13-37
 97            android:exported="false" />
-97-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:71:13-37
+97-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:71:13-37
 98        <activity
-98-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:72:9-80:20
+98-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:72:9-80:20
 99            android:name="com.android.kemilingcom.activity_login"
-99-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:73:13-43
+99-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:73:13-43
 100            android:exported="true" >
-100-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:74:13-36
+100-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:74:13-36
 101            <intent-filter>
-101-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:75:13-79:29
+101-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:75:13-79:29
 102                <action android:name="android.intent.action.MAIN" />
-102-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:76:17-69
-102-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:76:25-66
+102-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:76:17-69
+102-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:76:25-66
 103
 104                <category android:name="android.intent.category.LAUNCHER" />
-104-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:78:17-77
-104-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:78:27-74
+104-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:78:17-77
+104-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:78:27-74
 105            </intent-filter>
 106        </activity>
 107
 108        <meta-data
-108-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:82:9-84:71
+108-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:82:9-84:71
 109            android:name="com.google.android.geo.API_KEY"
-109-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:83:13-58
+109-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:83:13-58
 110            android:value="AIzaSyDO6NbVKxoRJq5S2_V2WRgjXt3ruChOc6c" />
-110-->I:\Ormawa\Kemilingcom2\app\src\main\AndroidManifest.xml:84:13-68
+110-->/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/AndroidManifest.xml:84:13-68
 111        <!-- Needs to be explicitly declared on P+ -->
 112        <uses-library
-112-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+112-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:39:9-41:40
 113            android:name="org.apache.http.legacy"
-113-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+113-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:40:13-50
 114            android:required="false" />
-114-->[com.google.android.gms:play-services-maps:19.0.0] C:\Users\rizky\.gradle\caches\transforms-4\f0f7a85d7fdf7ea286b0471e4541a643\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+114-->[com.google.android.gms:play-services-maps:19.0.0] /home/rar/.gradle/caches/transforms-4/f0f7a85d7fdf7ea286b0471e4541a643/transformed/play-services-maps-19.0.0/AndroidManifest.xml:41:13-37
 115
 116        <activity
-116-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+116-->[com.google.android.gms:play-services-base:18.5.0] /home/rar/.gradle/caches/transforms-4/a55ab7b7f4a3b61627ae00c06999d119/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
 117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-117-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+117-->[com.google.android.gms:play-services-base:18.5.0] /home/rar/.gradle/caches/transforms-4/a55ab7b7f4a3b61627ae00c06999d119/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
 118            android:exported="false"
-118-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+118-->[com.google.android.gms:play-services-base:18.5.0] /home/rar/.gradle/caches/transforms-4/a55ab7b7f4a3b61627ae00c06999d119/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
 119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-119-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\rizky\.gradle\caches\transforms-4\a55ab7b7f4a3b61627ae00c06999d119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+119-->[com.google.android.gms:play-services-base:18.5.0] /home/rar/.gradle/caches/transforms-4/a55ab7b7f4a3b61627ae00c06999d119/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
 120
 121        <meta-data
-121-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+121-->[com.google.android.gms:play-services-basement:18.4.0] /home/rar/.gradle/caches/transforms-4/19c347cf8fd2de4c0354355b7958ff4b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
 122            android:name="com.google.android.gms.version"
-122-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+122-->[com.google.android.gms:play-services-basement:18.4.0] /home/rar/.gradle/caches/transforms-4/19c347cf8fd2de4c0354355b7958ff4b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
 123            android:value="@integer/google_play_services_version" />
-123-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\rizky\.gradle\caches\transforms-4\19c347cf8fd2de4c0354355b7958ff4b\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+123-->[com.google.android.gms:play-services-basement:18.4.0] /home/rar/.gradle/caches/transforms-4/19c347cf8fd2de4c0354355b7958ff4b/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
 124
 125        <provider
-125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+125-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 126            android:name="androidx.startup.InitializationProvider"
-126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+126-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 127            android:authorities="com.android.kemilingcom.androidx-startup"
-127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+127-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 128            android:exported="false" >
-128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+128-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 129            <meta-data
-129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+129-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 130                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+130-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 131                android:value="androidx.startup" />
-131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rizky\.gradle\caches\transforms-4\cc5fa0c1eefb7d4c2f361bb95f84b67c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+131-->[androidx.emoji2:emoji2:1.2.0] /home/rar/.gradle/caches/transforms-4/cc5fa0c1eefb7d4c2f361bb95f84b67c/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 132            <meta-data
-132-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+132-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/rar/.gradle/caches/transforms-4/a66ad8cd78c2ee50da6bafe27c9c8baa/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 133                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-133-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+133-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/rar/.gradle/caches/transforms-4/a66ad8cd78c2ee50da6bafe27c9c8baa/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 134                android:value="androidx.startup" />
-134-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rizky\.gradle\caches\transforms-4\a66ad8cd78c2ee50da6bafe27c9c8baa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+134-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/rar/.gradle/caches/transforms-4/a66ad8cd78c2ee50da6bafe27c9c8baa/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
 135            <meta-data
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 136                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 137                android:value="androidx.startup" />
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 138        </provider>
 139
 140        <receiver
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 142            android:directBootAware="false"
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 143            android:enabled="true"
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 144            android:exported="true"
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 145            android:permission="android.permission.DUMP" >
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 146            <intent-filter>
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 148            </intent-filter>
 149            <intent-filter>
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 151            </intent-filter>
 152            <intent-filter>
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 154            </intent-filter>
 155            <intent-filter>
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\rizky\.gradle\caches\transforms-4\be12b68c38bc69e2e09538187faef701\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/rar/.gradle/caches/transforms-4/be12b68c38bc69e2e09538187faef701/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
 157            </intent-filter>
 158        </receiver>
 159
 160        <provider
-160-->[com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+160-->[com.squareup.picasso:picasso:2.71828] /home/rar/.gradle/caches/transforms-4/9455f231c5bd22e41b42caaca97b90f9/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
 161            android:name="com.squareup.picasso.PicassoProvider"
-161-->[com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+161-->[com.squareup.picasso:picasso:2.71828] /home/rar/.gradle/caches/transforms-4/9455f231c5bd22e41b42caaca97b90f9/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
 162            android:authorities="com.android.kemilingcom.com.squareup.picasso"
-162-->[com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+162-->[com.squareup.picasso:picasso:2.71828] /home/rar/.gradle/caches/transforms-4/9455f231c5bd22e41b42caaca97b90f9/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
 163            android:exported="false" />
-163-->[com.squareup.picasso:picasso:2.71828] C:\Users\rizky\.gradle\caches\transforms-4\9455f231c5bd22e41b42caaca97b90f9\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+163-->[com.squareup.picasso:picasso:2.71828] /home/rar/.gradle/caches/transforms-4/9455f231c5bd22e41b42caaca97b90f9/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
 164    </application>
 165
 166</manifest>

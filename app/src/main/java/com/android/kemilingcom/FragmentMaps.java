@@ -1,0 +1,82 @@
+package com.android.kemilingcom;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class FragmentMaps extends Fragment implements OnMapReadyCallback {
+
+    private GoogleMap mMap;
+    private double latitude;
+    private double longitude;
+
+    public FragmentMaps() {
+        // Required empty constructor
+    }
+
+    public static FragmentMaps newInstance(double lat, double lng) {
+        FragmentMaps fragment = new FragmentMaps();
+        Bundle args = new Bundle();
+        args.putDouble("LATITUDE", lat);
+        args.putDouble("LONGITUDE", lng);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_maps, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        if (getArguments() != null) {
+            latitude = getArguments().getDouble("LATITUDE", 0.0);
+            longitude = getArguments().getDouble("LONGITUDE", 0.0);
+        }
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
+        if (mapFragment != null) {
+            mapFragment.getMapAsync(this);
+        }
+
+        Button btnSelesai = view.findViewById(R.id.btn_selesai);
+        btnSelesai.setOnClickListener(v -> closeFragment());
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+        LatLng productLocation = new LatLng(latitude, longitude);
+        mMap.addMarker(new MarkerOptions().position(productLocation).title("Lokasi Produk"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(productLocation, 15f));
+    }
+
+    private void closeFragment() {
+        FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+        fragmentManager.popBackStack();  // Menghapus fragment dari backstack
+
+        // Sembunyikan container fragment agar tidak meninggalkan efek gelap
+        requireActivity().findViewById(R.id.fragment_container).setVisibility(View.GONE);
+    }
+
+
+
+}

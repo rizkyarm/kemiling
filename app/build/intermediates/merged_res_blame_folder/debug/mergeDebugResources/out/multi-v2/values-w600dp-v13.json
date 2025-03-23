@@ -4,7 +4,7 @@
             "outputFile": "com.android.kemilingcom.app-mergeDebugResources-40:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "I:\\Ormawa\\Kemilingcom2\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "/mnt/30E911A56C4BAFBE/Ormawa/Kemilingcom2/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "1",

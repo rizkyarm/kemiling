@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.android.kemilingcom.R;
@@ -47,6 +48,9 @@ public final class ActivityBerandaBinding implements ViewBinding {
   public final RecyclerView recyclerView;
 
   @NonNull
+  public final SwipeRefreshLayout swipeRefreshLayout;
+
+  @NonNull
   public final TextView textView6;
 
   @NonNull
@@ -68,8 +72,9 @@ public final class ActivityBerandaBinding implements ViewBinding {
       @NonNull BottomNavigationView bottomNavigationView, @NonNull EditText editSearch,
       @NonNull CircleImageView imageProfile, @NonNull ImageView imageView3,
       @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
-      @NonNull RecyclerView recyclerView, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull LinearLayout umkmBtn, @NonNull TextView userProfile,
+      @NonNull RecyclerView recyclerView, @NonNull SwipeRefreshLayout swipeRefreshLayout,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull LinearLayout umkmBtn, @NonNull TextView userProfile,
       @NonNull LinearLayout wisataBtn) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
@@ -79,6 +84,7 @@ public final class ActivityBerandaBinding implements ViewBinding {
     this.imageView4 = imageView4;
     this.main = main;
     this.recyclerView = recyclerView;
+    this.swipeRefreshLayout = swipeRefreshLayout;
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView8 = textView8;
@@ -152,6 +158,12 @@ public final class ActivityBerandaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swipeRefreshLayout;
+      SwipeRefreshLayout swipeRefreshLayout = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefreshLayout == null) {
+        break missingId;
+      }
+
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
@@ -189,8 +201,8 @@ public final class ActivityBerandaBinding implements ViewBinding {
       }
 
       return new ActivityBerandaBinding((ConstraintLayout) rootView, bottomNavigationView,
-          editSearch, imageProfile, imageView3, imageView4, main, recyclerView, textView6,
-          textView7, textView8, umkmBtn, userProfile, wisataBtn);
+          editSearch, imageProfile, imageView3, imageView4, main, recyclerView, swipeRefreshLayout,
+          textView6, textView7, textView8, umkmBtn, userProfile, wisataBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,2 +1,0 @@
-com.android.kemilingcom.test:style/WhiteBackgroundTheme = 0x7f010001
-com.android.kemilingcom.test:style/WhiteBackgroundDialogTheme = 0x7f010000

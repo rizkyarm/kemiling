@@ -209,7 +209,7 @@ public class activity_terdekat extends AppCompatActivity {
             requestBody.put("latitude", currentLatitude);
             requestBody.put("longitude", currentLongitude);
         } catch (JSONException e) {
-            Log.e("",e.getMessage());
+            Log.e("JSON Error", e.getMessage());
         }
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
@@ -230,13 +230,27 @@ public class activity_terdekat extends AppCompatActivity {
 
                             for (int i = 0; i < dataArray.length(); i++) {
                                 JSONObject productObject = dataArray.getJSONObject(i);
+
                                 int id = productObject.getInt("id_produk");
                                 String title = productObject.getString("nama_produk");
-                                int price = productObject.getInt("price");
-                                String location = productObject.getString("kategori");
-                                float rating = (float) productObject.optDouble("rating", 0.0);
+                                String category = productObject.optString("kategori", "UMKM");
                                 String imageUrl = productObject.optString("image", "");
-                                productList.add(new product(id, title, price, location, rating, imageUrl));
+
+                                int price = productObject.optInt("price", 0);
+                                int weekday_ticket = productObject.optInt("weekday_ticket", 0);
+                                int weekend_ticket = productObject.optInt("weekend_ticket", 0);
+                                String location = productObject.optString("kategori", "Tidak ada lokasi");
+                                float rating = (float) productObject.optDouble("rating", 0.0);
+
+
+                                productList.add(new product(id, title, price, weekday_ticket, weekend_ticket, category, location, rating, imageUrl));
+
+                                Log.d("Product Data", "ID: " + id +
+                                        ", Title: " + title +
+                                        ", Price: " + price +
+                                        ", Weekday Ticket: " + weekday_ticket +
+                                        ", Weekend Ticket: " + weekend_ticket +
+                                        ", Category: " + category);
                             }
 
                             adapter.notifyDataSetChanged();
@@ -264,4 +278,6 @@ public class activity_terdekat extends AppCompatActivity {
         jsonObjectRequest.setShouldCache(false);
         queue.add(jsonObjectRequest);
     }
+
+
 }

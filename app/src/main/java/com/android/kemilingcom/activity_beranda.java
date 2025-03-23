@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -24,6 +25,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -59,6 +61,8 @@ public class activity_beranda extends AppCompatActivity {
     private ImageView profileImageView;
     private RecyclerView recyclerView;
 
+    private SwipeRefreshLayout swipeRefreshLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,6 +79,7 @@ public class activity_beranda extends AppCompatActivity {
         });
 
         // Inisialisasi komponen UI
+        swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout);
         userProfileTextView = findViewById(R.id.user_profile);
         et_search = findViewById(R.id.edit_search);
         btn_wisata = findViewById(R.id.wisata_btn);
@@ -82,6 +87,8 @@ public class activity_beranda extends AppCompatActivity {
         recommend = findViewById(R.id.recyclerView);
         bottomNavigationView = findViewById(R.id.bottomNavigationView); // Inisialisasi BottomNavigationView
         profileImageView = findViewById(R.id.image_profile); // Inisialisasi ImageView
+
+
 
         // Konfigurasi BottomNavigationView
         bottomNavigationView.setSelectedItemId(R.id.menu_home); // Set menu Home sebagai default
@@ -131,6 +138,14 @@ public class activity_beranda extends AppCompatActivity {
         recommend.setLayoutManager(new LinearLayoutManager(this));
         recommend.setAdapter(adapter);
 
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        refreshData();
+
+        // Pull-to-refresh untuk merefresh semua elemen dalam activity
+        swipeRefreshLayout.setOnRefreshListener(() -> {
+            refreshData();
+        });
+
         // Listener untuk tombol Wisata
         btn_wisata.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -173,6 +188,29 @@ public class activity_beranda extends AppCompatActivity {
             }
         });
     }
+
+    private void refreshData() {
+        // 1. Ambil ulang nama pengguna
+        SharedPreferences sharedPreferences = getSharedPreferences("UserPrefs", Context.MODE_PRIVATE);
+        String userName = sharedPreferences.getString("userName", "");
+        userProfileTextView.setText("Hi, " + userName);
+
+        // 2. Ambil ulang foto profil
+        String apiUrl = BASE_URL + "api_image_profile.php?username=" + userName;
+        fetchProfileImage(apiUrl, profileImageView);
+
+        // 3. Kosongkan pencarian
+        et_search.setText("");
+
+        // 4. Ambil ulang daftar produk
+        fetchProducts(null);
+
+        // 5. Hentikan animasi refresh setelah semua selesai (delay untuk efek visual)
+        new Handler().postDelayed(() -> {
+            swipeRefreshLayout.setRefreshing(false);
+        }, 2000);
+    }
+
 
     private void fetchProfileImage(String apiUrl, ImageView imageView) {
         // Fetch image URL from API
@@ -244,12 +282,19 @@ public class activity_beranda extends AppCompatActivity {
 
                                 int id = productObject.getInt("id");
                                 String title = productObject.getString("title");
-                                int price = productObject.getInt("price");
+                                int price = productObject.optInt("price", 0);
+                                int weekday_ticket = productObject.optInt("weekday_ticket", 0);
+                                int weekend_ticket = productObject.optInt("weekend_ticket", 0);
+
+                                String category = productObject.has("category") ?
+                                        productObject.getString("category") : "UMKM"; // Default ke UMKM
+
                                 String location = productObject.getString("location");
                                 float rating = (float) productObject.getDouble("rating");
                                 String imageUrl = productObject.getString("image_url");
 
-                                productList.add(new product(id, title, price, location, rating, imageUrl));
+                                // Tambahkan ke list produk dengan category, weekday_ticket, dan weekend_ticket
+                                productList.add(new product(id, title, price, weekday_ticket, weekend_ticket, category, location, rating, imageUrl));
                             }
 
                             adapter.notifyDataSetChanged(); // Perbarui RecyclerView
@@ -267,11 +312,10 @@ public class activity_beranda extends AppCompatActivity {
                     }
                 }
         );
+
         jsonObjectRequest.setShouldCache(false);
         queue.add(jsonObjectRequest);
     }
-
-
 
     private void searchProducts(String query) {
         if (query.isEmpty()) {
@@ -304,11 +348,22 @@ public class activity_beranda extends AppCompatActivity {
                                     int id = productObject.getInt("id");
                                     String title = productObject.getString("title");
                                     int price = productObject.getInt("price");
+
+                                    // Ambil weekday_ticket & weekend_ticket (gunakan default jika tidak ada)
+                                    int weekday_ticket = productObject.has("weekday_ticket") ?
+                                            productObject.getInt("weekday_ticket") : 0;
+                                    int weekend_ticket = productObject.has("weekend_ticket") ?
+                                            productObject.getInt("weekend_ticket") : 0;
+
+                                    String category = productObject.has("category") ?
+                                            productObject.getString("category") : "UMKM"; // Default ke UMKM
+
                                     String location = productObject.getString("location");
                                     float rating = (float) productObject.getDouble("rating");
                                     String imageUrl = productObject.getString("image_url");
 
-                                    productList.add(new product(id, title, price, location, rating, imageUrl));
+                                    // Tambahkan produk ke list dengan category, weekday_ticket, dan weekend_ticket
+                                    productList.add(new product(id, title, price, weekday_ticket, weekend_ticket, category, location, rating, imageUrl));
                                 }
 
                                 adapter.notifyDataSetChanged();
@@ -335,4 +390,6 @@ public class activity_beranda extends AppCompatActivity {
         // Tambahkan request ke antrian
         queue.add(jsonObjectRequest);
     }
+
+
 }

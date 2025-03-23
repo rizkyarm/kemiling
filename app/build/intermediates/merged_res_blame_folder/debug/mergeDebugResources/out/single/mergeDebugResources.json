@@ -1,662 +1,662 @@
 [
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logo_wisata_btn.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logo_wisata_btn.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_location.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\location.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_logo_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/logo_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_logo_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\logo_launcher_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_profiles_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/profiles_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_location_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/location_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_after_paid.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_after_paid.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logo_wisata.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logo_wisata.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_ic_account_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\ic_account_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_pilih_add_product.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_pilih_add_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_profiles.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\profiles.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_description_item.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/description_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_profiles.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\profiles.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_location_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/location_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_add_product_umkm.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_add_product_umkm.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_second.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logout.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logout.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_rect.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\rect.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/logo_kemiling.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\menu\\bottom_nav_menu.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_ic_account.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\ic_account.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_fragment_first.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logo_wisata.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logo_wisata.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_viewholder_item.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_logo_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\logo_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\font_alatsi.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\font\\alatsi.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_daftar.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_daftar.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_ic_account_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/ic_account_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_location_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\location_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_profiles.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/profiles.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_grey.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\grey.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-pngs-38:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_store_button_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\store_button_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_back_btn.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/back_btn.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_add_product_wisata.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_add_product_wisata.xml"
+        "merged": "com.android.kemilingcom.app-debug-42:/layout_activity_beranda.xml.flat",
+        "source": "com.android.kemilingcom.app-main-44:/layout/activity_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_description_item.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\description_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_ic_account_foreground.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/ic_account_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_logo_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/logo_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_profiles.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\profiles.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_account.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_ic_store_foreground.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/ic_store_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\logo_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_location.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/location.png"
     },
     {
-        "merged": "com.android.kemilingcom.app-debug-42:/layout_activity_account.xml.flat",
-        "source": "com.android.kemilingcom.app-main-44:/layout/activity_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_add_product_umkm.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_add_product_umkm.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_business.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\business.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_ic_account.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/ic_account.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_after_paid.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\after_paid.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_checkout.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_checkout.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_store_button_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/store_button_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\color_bottom_nav_item_color.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\color\\bottom_nav_item_color.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/raw_cicle_animation.json.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/raw/cicle_animation.json"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_image_header.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\image_header.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_location.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/location.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_profiles_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\profiles_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logo_kemiling.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_ic_home_foreground.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\ic_home_foreground.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_profiles_foreground.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/profiles_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_map_item.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\map_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_logo_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/logo_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_store_button_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\store_button_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_profiles.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/profiles.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_location.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\location.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_edit_textbg.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/edit_textbg.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_logo_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\logo_launcher_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_location.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/location.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_search_icon.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\search_icon.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_ic_account_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/ic_account_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_store_button.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\store_button.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_near_icon.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/near_icon.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_location_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\location_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_after_paid.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/after_paid.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_viewholder_transaksi.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_transaksi.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_fragment_fourth.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_fourth.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_profiles_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\profiles_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_account.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_account.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_fragment_third.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_third.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_grey_night.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/grey_night.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_image_slider_item.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\image_slider_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_circle_profile.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/circle_profile.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_profiles_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\profiles_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_store_button_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/store_button_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_add_product_wisata.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_add_product_wisata.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_location.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\location.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_btn1.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\btn1.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_shopp.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/shopp.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_profiles.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\profiles.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_half_black_bg.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\half_black_bg.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_location_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/location_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_back_btn.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\back_btn.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_logo_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/logo_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_bottom_nav_background.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\bottom_nav_background.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_logo_launcher_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/logo_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logo_forest_btn.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logo_forest_btn.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_shop.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/shop.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_grey_bg.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\grey_bg.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_grey.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/grey.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_location_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\location_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/logo_kemiling.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logoutimg.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logoutimg.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_profiles_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/profiles_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\ic_launcher_background.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_fragment_maps.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_maps.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_btn_delete.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\btn_delete.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_fragment_second.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_ic_account_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\ic_account_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/logo_kemiling.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_image_bg.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\image_bg.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_store_button.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/store_button.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_ic_account_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\ic_account_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_daftar.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_daftar.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_ic_account_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/ic_account_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_rekening.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_rekening.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_viewholder_item.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_store_button.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\store_button.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_store_button_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/store_button_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_fragment_maps.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_maps.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/logo_kemiling.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_store_button.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\store_button.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_ic_home_foreground.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/ic_home_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\logo_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_product.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_logout.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\logout.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_store_button.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\store_button.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_search_icon.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/search_icon.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_profiles_foreground.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\profiles_foreground.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_location_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/location_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_account_icon.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\account_icon.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_store_button_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/store_button_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\anim_slide_out_left.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\anim\\slide_out_left.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_location_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/location_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\logo_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_profiles.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/profiles.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_full_screen_image.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_full_screen_image.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_logo_launcher_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/logo_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_logo_launcher_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/logo_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\raw_certificate.crt.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\raw\\certificate.crt"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_location_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/location_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_terdekat.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_terdekat.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_profiles_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/profiles_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_fragment_fourth.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_fourth.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_transaksi.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_transaksi.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_beranda.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_beranda.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/anim_slide_out_down.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/anim/slide_out_down.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_profiles.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\profiles.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_logo_launcher_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/logo_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\anim_slide_in_up.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\anim\\slide_in_up.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_ic_account.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/ic_account.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_ic_account_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\ic_account_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_location.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/location.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_store_button_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\store_button_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_logo_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/logo_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_logo_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\logo_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_ic_account_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/ic_account_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_location.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\location.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_profiles_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/profiles_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_my_product.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_my_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_account_icon.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/account_icon.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_ic_account_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\ic_account_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_logo_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/logo_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_ic_store_foreground.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\ic_store_foreground.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_full_screen_image.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_full_screen_image.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_setting.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\setting.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_ic_account.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/ic_account.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_blue_btn.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\blue_btn.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_ic_account.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/ic_account.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_location_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\location_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_btn2.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/btn2.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_profiles_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\profiles_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_login.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_logo_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\logo_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_store_button.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/store_button.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_location.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\location.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_background_btn.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/background_btn.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_profiles_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\profiles_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/font_alatsi.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/font/alatsi.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_location_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/location_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_half_black_bg.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/half_black_bg.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_shopp.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\shopp.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_store_button.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/store_button.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_ic_account.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\ic_account.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_beranda.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_store_button_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\store_button_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_location.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/location.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\logo_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_profiles.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/profiles.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_store_button.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\store_button.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_image_slider_item.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/image_slider_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_location_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\location_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logo_forest_btn.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logo_forest_btn.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_profiles.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\profiles.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_location_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/location_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_location_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\location_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/anim_slide_in_right.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/anim/slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_logo_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/logo_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_location_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\location_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_confirmation_transaction.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_confirmation_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_ic_account_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\ic_account_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_setting.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/setting.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_circle_profile.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\circle_profile.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logoutimg.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logoutimg.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_logo_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\logo_launcher_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_after_paid.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_after_paid.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_logo_launcher_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\logo_launcher_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_image_upload.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/image_upload.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_store_button_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/store_button_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_location_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\location_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_logo_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/logo_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_checkout.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_checkout.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_logo_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\logo_launcher_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_profiles.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/profiles.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_near_icon.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\near_icon.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_ic_account.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/ic_account.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_product.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_bottom_nav_background.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/bottom_nav_background.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_logo_launcher.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\logo_launcher.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_profiles_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/profiles_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_transaksi.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_transaksi.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_logo_launcher_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/logo_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_confirmation_transaction.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_confirmation_transaction.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_profiles.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/profiles.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\anim_slide_in_right.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\anim\\slide_in_right.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_ic_account.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/ic_account.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\anim_slide_out_down.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\anim\\slide_out_down.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_terdekat.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_terdekat.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\xml\\data_extraction_rules.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_logo_wisata_btn.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/logo_wisata_btn.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_login.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_location_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/location_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_image_upload.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\image_upload.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_btn1.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/btn1.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_logo_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\logo_launcher_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_business.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/business.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_ic_account.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\ic_account.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_store_button.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/store_button.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_logo_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\logo_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/anim_slide_in_up.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/anim/slide_in_up.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_location_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\location_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_location_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/location_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_my_account.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_my_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_image_header.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/image_header.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_background_btn.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\background_btn.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_store_button_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/store_button_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_ic_account.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\ic_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_my_product.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_my_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_shop.png.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\shop.png"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_location.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/location.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_pilih_add_product.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_pilih_add_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_logo_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/logo_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_logo_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\logo_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_ic_account_round.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/ic_account_round.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_profiles_round.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\profiles_round.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_logo_launcher.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/logo_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\raw_cicle_animation.json.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\raw\\cicle_animation.json"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_map_item.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/map_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_edit_textbg.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\edit_textbg.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_profiles_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/profiles_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_location_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\location_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_ic_account_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/ic_account_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_location.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\location.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_store_button.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/store_button.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_store_button.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\store_button.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_fragment_third.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_third.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-anydpi-v26_location.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-anydpi-v26\\location.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/raw_certificate.crt.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/raw/certificate.crt"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_store_button_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\store_button_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_blue_btn.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/blue_btn.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_logo_kemiling.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\logo_kemiling.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxxhdpi_logo_launcher_foreground.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxxhdpi/logo_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_rect.png.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/rect.png"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_activity_rekening.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_rekening.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_location.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/location.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_grey_night.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\grey_night.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_first.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-hdpi_location_round.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-hdpi/location_round.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\xml\\backup_rules.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/color_bottom_nav_item_color.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/color/bottom_nav_item_color.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-pngs-38:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_btn_delete.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/btn_delete.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_grey_bg.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/grey_bg.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_ic_account_foreground.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\ic_account_foreground.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/anim_slide_out_left.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/anim/slide_out_left.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\drawable_btn2.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\drawable\\btn2.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/drawable_image_bg.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/drawable/image_bg.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxhdpi_ic_account.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxhdpi\\ic_account.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_viewholder_transaksi.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_transaksi.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xxxhdpi_store_button_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xxxhdpi\\store_button_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_viewholder_edit.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_edit.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\layout_viewholder_edit.xml.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_edit.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xxhdpi_store_button.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xxhdpi/store_button.webp"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-xhdpi_logo_launcher_round.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-xhdpi\\logo_launcher_round.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/layout_activity_my_account.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_my_account.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-hdpi_ic_account.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-hdpi\\ic_account.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-anydpi-v26_logo_launcher.xml.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-anydpi-v26/logo_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-debug-42:\\mipmap-mdpi_location_foreground.webp.flat",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\mipmap-mdpi\\location_foreground.webp"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-debug-42:/mipmap-xhdpi_logo_kemiling.webp.flat",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/mipmap-xhdpi/logo_kemiling.webp"
     }
 ]

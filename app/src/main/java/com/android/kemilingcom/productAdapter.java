@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Calendar;
 import java.util.List;
 
 public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultViewHolder> {
@@ -53,25 +54,45 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultV
     public void onBindViewHolder(@NonNull DefaultViewHolder holder, int position) {
         product product = productList.get(position);
 
-        // Set data ke tampilan
+        // Set judul produk
         holder.tvTitle.setText(product.getTitle());
-        holder.tvPrice.setText("Rp. " + String.format("%,d", product.getPrice()));
+
+        // Tentukan harga berdasarkan kategori
+        if (product.getCategory().equalsIgnoreCase("UMKM")) {
+            holder.tvPrice.setText("Rp. " + String.format("%,d", product.getPrice()));
+        } else if (product.getCategory().equalsIgnoreCase("Tempat Wisata")) {
+            // Tentukan harga berdasarkan hari saat ini
+            int currentDay = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);
+            int displayedPrice = (currentDay == Calendar.SATURDAY || currentDay == Calendar.SUNDAY) ?
+                    product.getWeekendTicket() : product.getWeekdayTicket();
+
+            if (product.getCategory().equalsIgnoreCase("UMKM")) {
+                holder.tvPrice.setText("Rp. " + String.format("%,d", product.getPrice()));
+            }
+            else if (product.getCategory().equalsIgnoreCase("Tempat Wisata")) {
+                currentDay = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);
+                displayedPrice = (currentDay == Calendar.SATURDAY || currentDay == Calendar.SUNDAY) ?
+                        product.getWeekendTicket() : product.getWeekdayTicket();
+
+                if (displayedPrice > 0) {
+                    holder.tvPrice.setText("Rp. " + String.format("%,d", displayedPrice));
+                } else {
+                    holder.tvPrice.setText("Harga Tidak Tersedia");
+                }
+            }        }
 
         // Cek apakah URL gambar tersedia
         if (product.getImageUrl() != null && !product.getImageUrl().isEmpty()) {
-            Log.d("Glide", "Loading image from: " + product.getImageUrl()); // Debug log
+            Log.d("Glide", "Loading image from: " + product.getImageUrl());
 
-            // Load gambar menggunakan Glide dengan corner radius
             Glide.with(context)
-                    .load(product.getImageUrl()) // Load dari URL
+                    .load(product.getImageUrl())
                     .placeholder(R.raw.cicle_animation)
                     .error(R.raw.cicle_animation)
-                    .override(1100, 750) // Ukuran tetap untuk menghindari lag
-                    .centerCrop() // Crop agar tetap proporsional
+                    .override(1100, 750)
+                    .centerCrop()
                     .into(holder.ivPicture);
-
         } else {
-            // Jika URL kosong, tampilkan gambar default
             Log.e("Glide", "Image URL is empty, loading default image.");
             Glide.with(context)
                     .load(R.raw.cicle_animation)
@@ -84,6 +105,9 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultV
             intent.putExtra("PRODUCT_ID", product.getId());
             intent.putExtra("PRODUCT_TITLE", product.getTitle());
             intent.putExtra("PRODUCT_PRICE", product.getPrice());
+            intent.putExtra("PRODUCT_WEEKDAY_TICKET", product.getWeekdayTicket());
+            intent.putExtra("PRODUCT_WEEKEND_TICKET", product.getWeekendTicket());
+            intent.putExtra("PRODUCT_CATEGORY", product.getCategory());
             intent.putExtra("PRODUCT_LOCATION", product.getLocation());
             intent.putExtra("PRODUCT_RATING", product.getRating());
             intent.putExtra("PRODUCT_IMAGE", product.getImageUrl());

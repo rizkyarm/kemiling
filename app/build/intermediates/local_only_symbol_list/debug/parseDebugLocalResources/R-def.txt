@@ -131,6 +131,7 @@ id editweekend
 id editwisata
 id fragmen_container
 id fragmentContainer
+id fragment_container
 id full_screen_image
 id image1
 id image2
@@ -174,6 +175,7 @@ id recycleview_product
 id rek1
 id rek2
 id rek3
+id swipeRefreshLayout
 id textView
 id textView1
 id textView10

@@ -1,118 +1,118 @@
 [
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_second.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_transaksi.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_transaksi.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\fragment_third.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_third.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/fragment_second.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_login.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/viewholder_transaksi.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_transaksi.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_add_product_wisata.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_add_product_wisata.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/fragment_maps.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_maps.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\viewholder_transaksi.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_transaksi.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_daftar.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_daftar.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_first.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_rekening.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_rekening.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\description_item.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\description_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_my_account.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_my_account.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_after_paid.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_after_paid.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_beranda.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_product.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_add_product_umkm.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_add_product_umkm.xml"
     },
     {
-        "merged": "com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_account.xml",
-        "source": "com.android.kemilingcom.app-main-44:/layout/activity_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/description_item.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/description_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\fragment_fourth.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_fourth.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_terdekat.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_terdekat.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_pilih_add_product.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_pilih_add_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_my_product.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_my_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\fragment_maps.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\fragment_maps.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_account.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_account.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_beranda.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_beranda.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/image_slider_item.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/image_slider_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_full_screen_image.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_full_screen_image.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/viewholder_edit.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_edit.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\viewholder_edit.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_edit.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_full_screen_image.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_full_screen_image.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_confirmation_transaction.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_confirmation_transaction.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_confirmation_transaction.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_confirmation_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\map_item.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\map_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_my_product.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_my_product.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/fragment_third.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_third.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_checkout.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_checkout.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/map_item.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/map_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_account.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_checkout.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_checkout.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_transaksi.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_transaksi.xml"
+        "merged": "com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_beranda.xml",
+        "source": "com.android.kemilingcom.app-main-44:/layout/activity_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_add_product_umkm.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_add_product_umkm.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/viewholder_item.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/viewholder_item.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\image_slider_item.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\image_slider_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/fragment_fourth.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_fourth.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_rekening.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_rekening.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_product.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_daftar.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_daftar.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_pilih_add_product.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_pilih_add_product.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_my_account.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_my_account.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_add_product_wisata.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_add_product_wisata.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\viewholder_item.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\viewholder_item.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/fragment_first.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-mergeDebugResources-41:\\layout\\activity_terdekat.xml",
-        "source": "C:\\Users\\rizky\\.gradle\\daemon\\8.7\\com.android.kemilingcom.app-main-44:\\layout\\activity_terdekat.xml"
+        "merged": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-mergeDebugResources-41:/layout/activity_after_paid.xml",
+        "source": "/home/rar/.gradle/daemon/8.7/com.android.kemilingcom.app-main-44:/layout/activity_after_paid.xml"
     }
 ]

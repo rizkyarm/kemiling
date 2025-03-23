@@ -370,7 +370,7 @@ public class CheckOut extends AppCompatActivity {
     }
 
     public void fetchRekeningDetails(String userid) {
-        String url = "https://store.kemiling.com/api_rekening.php?user_id=" + userid;
+        String url = "https://store.kemiling.com/api_rekening.php?id_user=" + userid;
 
         ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Fetching rekening details...");
