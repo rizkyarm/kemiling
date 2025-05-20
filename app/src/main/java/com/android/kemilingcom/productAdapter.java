@@ -55,7 +55,9 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultV
         product product = productList.get(position);
 
         // Set judul produk
-        holder.tvTitle.setText(product.getTitle());
+        String fullTitle = product.getTitle();
+        String shortTitle = fullTitle.length() > 13 ? fullTitle.substring(0, 12) + "..." : fullTitle;
+        holder.tvTitle.setText(shortTitle);
 
         // Tentukan harga berdasarkan kategori
         if (product.getCategory().equalsIgnoreCase("UMKM")) {
@@ -85,7 +87,7 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultV
         if (product.getImageUrl() != null && !product.getImageUrl().isEmpty()) {
             Log.d("Glide", "Loading image from: " + product.getImageUrl());
 
-            Glide.with(context)
+            Glide.with(holder.ivPicture.getContext())  // ✅ Gunakan context dari View
                     .load(product.getImageUrl())
                     .placeholder(R.raw.cicle_animation)
                     .error(R.raw.cicle_animation)
@@ -94,10 +96,11 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.DefaultV
                     .into(holder.ivPicture);
         } else {
             Log.e("Glide", "Image URL is empty, loading default image.");
-            Glide.with(context)
+            Glide.with(holder.ivPicture.getContext())  // ✅ Ganti di sini juga
                     .load(R.raw.cicle_animation)
                     .into(holder.ivPicture);
         }
+
 
         // Handle klik item untuk membuka activity_product
         holder.itemView.setOnClickListener(v -> {

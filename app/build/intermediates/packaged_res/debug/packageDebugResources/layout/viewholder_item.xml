@@ -47,6 +47,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:text="Title"
+            android:maxLines="1"
+            android:ellipsize="end"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/white"

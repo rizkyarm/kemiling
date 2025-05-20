@@ -54,7 +54,6 @@ drawable logo_kemiling
 drawable logo_wisata
 drawable logo_wisata_btn
 drawable logout
-drawable logoutimg
 drawable near_icon
 drawable profiles_foreground
 drawable rect
@@ -67,6 +66,7 @@ id Logout
 id block_black
 id bottomNavigationView
 id bottom_buttons
+id btnPilihHeader
 id btnUploadAll
 id btn_back
 id btn_back2
@@ -87,6 +87,7 @@ id btn_myproduct
 id btn_not_confirm
 id btn_not_confirm2
 id btn_notf
+id btn_openMaps
 id btn_paid
 id btn_pesan
 id btn_pilih_map

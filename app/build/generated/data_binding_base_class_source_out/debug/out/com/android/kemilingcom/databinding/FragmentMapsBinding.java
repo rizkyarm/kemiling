@@ -20,10 +20,15 @@ public final class FragmentMapsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnOpenMaps;
+
+  @NonNull
   public final Button btnSelesai;
 
-  private FragmentMapsBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSelesai) {
+  private FragmentMapsBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnOpenMaps,
+      @NonNull Button btnSelesai) {
     this.rootView = rootView;
+    this.btnOpenMaps = btnOpenMaps;
     this.btnSelesai = btnSelesai;
   }
 
@@ -54,13 +59,19 @@ public final class FragmentMapsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_openMaps;
+      Button btnOpenMaps = ViewBindings.findChildViewById(rootView, id);
+      if (btnOpenMaps == null) {
+        break missingId;
+      }
+
       id = R.id.btn_selesai;
       Button btnSelesai = ViewBindings.findChildViewById(rootView, id);
       if (btnSelesai == null) {
         break missingId;
       }
 
-      return new FragmentMapsBinding((ConstraintLayout) rootView, btnSelesai);
+      return new FragmentMapsBinding((ConstraintLayout) rootView, btnOpenMaps, btnSelesai);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

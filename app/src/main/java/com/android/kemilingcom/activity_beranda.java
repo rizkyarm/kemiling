@@ -63,6 +63,16 @@ public class activity_beranda extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeRefreshLayout;
 
+    private RequestQueue requestQueue;
+
+
+    private int offset = 0;
+    private final int limit = 10;
+    private boolean isLoading = false;
+    private boolean isLastPage = false;
+    private String selectedCategory = null; // Simpan kategori yang sedang digunakan
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,6 +87,9 @@ public class activity_beranda extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        requestQueue = Volley.newRequestQueue(this);
+
 
         // Inisialisasi komponen UI
         swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout);
@@ -141,6 +154,26 @@ public class activity_beranda extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         refreshData();
 
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
+                if (layoutManager != null && !isLoading && !isLastPage) {
+                    int visibleItemCount = layoutManager.getChildCount();
+                    int totalItemCount = layoutManager.getItemCount();
+                    int firstVisibleItemPosition = layoutManager.findFirstVisibleItemPosition();
+
+                    if ((visibleItemCount + firstVisibleItemPosition) >= totalItemCount - 2
+                            && firstVisibleItemPosition >= 0) {
+                        fetchProducts(null); // Gunakan selectedCategory yang tersimpan
+                    }
+                }
+            }
+        });
+
+
         // Pull-to-refresh untuk merefresh semua elemen dalam activity
         swipeRefreshLayout.setOnRefreshListener(() -> {
             refreshData();
@@ -188,6 +221,15 @@ public class activity_beranda extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (requestQueue != null) {
+            requestQueue.cancelAll(tag -> true); // cancel semua request
+        }
+    }
+
 
     private void refreshData() {
         // 1. Ambil ulang nama pengguna
@@ -250,19 +292,31 @@ public class activity_beranda extends AppCompatActivity {
     }
 
     private void fetchProducts(String category) {
+        if (isLoading || isLastPage) return;
+
+        isLoading = true;
+
+        // Simpan kategori hanya jika offset == 0 (panggilan pertama)
+        if (offset == 0) {
+            selectedCategory = category;
+        }
+
         RequestQueue queue = Volley.newRequestQueue(this);
         String url;
 
-        // Logika pemilihan URL berdasarkan kategori
-        if (category == null) {
-            url = Db_Contract.url_product; // Ambil semua produk jika kategori null
-        } else if (category.equals("Tempat Wisata")) {
-            url = Db_Contract.url_product_wisata; // Ambil produk wisata
-        } else if (category.equals("UMKM")) {
-            url = Db_Contract.url_product_umkm; // Ambil produk UMKM
+        // Gunakan selectedCategory, bukan parameter langsung
+        if (selectedCategory == null) {
+            url = Db_Contract.url_product;
+        } else if (selectedCategory.equals("Tempat Wisata")) {
+            url = Db_Contract.url_product_wisata;
+        } else if (selectedCategory.equals("UMKM")) {
+            url = Db_Contract.url_product_umkm;
         } else {
-            url = Db_Contract.url_product; // Default ke semua produk
+            url = Db_Contract.url_product;
         }
+
+        // Tambahkan offset & limit
+        url += "?offset=" + offset + "&limit=" + limit;
 
         Log.d("FetchProducts", "Fetching from URL: " + url);
 
@@ -270,52 +324,50 @@ public class activity_beranda extends AppCompatActivity {
                 Request.Method.GET,
                 url,
                 null,
-                new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            JSONArray dataArray = response.getJSONArray("data");
-                            productList.clear(); // Kosongkan data sebelumnya
+                response -> {
+                    try {
+                        JSONArray dataArray = response.getJSONArray("data");
 
-                            for (int i = 0; i < dataArray.length(); i++) {
-                                JSONObject productObject = dataArray.getJSONObject(i);
-
-                                int id = productObject.getInt("id");
-                                String title = productObject.getString("title");
-                                int price = productObject.optInt("price", 0);
-                                int weekday_ticket = productObject.optInt("weekday_ticket", 0);
-                                int weekend_ticket = productObject.optInt("weekend_ticket", 0);
-
-                                String category = productObject.has("category") ?
-                                        productObject.getString("category") : "UMKM"; // Default ke UMKM
-
-                                String location = productObject.getString("location");
-                                float rating = (float) productObject.getDouble("rating");
-                                String imageUrl = productObject.getString("image_url");
-
-                                // Tambahkan ke list produk dengan category, weekday_ticket, dan weekend_ticket
-                                productList.add(new product(id, title, price, weekday_ticket, weekend_ticket, category, location, rating, imageUrl));
-                            }
-
-                            adapter.notifyDataSetChanged(); // Perbarui RecyclerView
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                            System.out.println("JSON Parsing Error: " + e.getMessage());
+                        if (dataArray.length() == 0) {
+                            isLastPage = true;
+                            return;
                         }
+
+                        for (int i = 0; i < dataArray.length(); i++) {
+                            JSONObject productObject = dataArray.getJSONObject(i);
+
+                            int id = productObject.getInt("id");
+                            String title = productObject.getString("title");
+                            int price = productObject.optInt("price", 0);
+                            int weekday_ticket = productObject.optInt("weekday_ticket", 0);
+                            int weekend_ticket = productObject.optInt("weekend_ticket", 0);
+                            String categoryName = productObject.optString("category", "UMKM");
+                            String location = productObject.getString("location");
+                            float rating = (float) productObject.getDouble("rating");
+                            String imageUrl = productObject.getString("image_url");
+
+                            productList.add(new product(id, title, price, weekday_ticket, weekend_ticket, categoryName, location, rating, imageUrl));
+                        }
+
+                        offset += dataArray.length();
+                        adapter.notifyDataSetChanged();
+                        isLoading = false;
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        isLoading = false;
                     }
                 },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        error.printStackTrace();
-                        System.out.println("Volley Request Error: " + error.getMessage());
-                    }
+                error -> {
+                    error.printStackTrace();
+                    isLoading = false;
                 }
         );
 
         jsonObjectRequest.setShouldCache(false);
         queue.add(jsonObjectRequest);
     }
+
+
 
     private void searchProducts(String query) {
         if (query.isEmpty()) {

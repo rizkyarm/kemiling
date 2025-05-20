@@ -61,11 +61,17 @@ public class activity_terdekat extends AppCompatActivity {
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1001;
     private double currentLatitude = 0, currentLongitude = 0;
 
+    private RequestQueue requestQueue;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_terdekat);
+
+        requestQueue = Volley.newRequestQueue(this);
+
 
         // Inisialisasi UI
         userProfileTextView = findViewById(R.id.user_profile);
@@ -120,6 +126,16 @@ public class activity_terdekat extends AppCompatActivity {
         nearbyRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         nearbyRecyclerView.setAdapter(adapter);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (requestQueue != null) {
+            requestQueue.cancelAll(tag -> true); // cancel semua request
+        }
+    }
+
+
     // Override onBackPressed()
     @Override
     public void onBackPressed() {
@@ -127,6 +143,7 @@ public class activity_terdekat extends AppCompatActivity {
         super.onBackPressed();
         finishAffinity();
     }
+
 
     private void getDeviceLocation() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {

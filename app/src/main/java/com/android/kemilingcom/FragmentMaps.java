@@ -1,5 +1,6 @@
 package com.android.kemilingcom;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,9 +58,29 @@ public class FragmentMaps extends Fragment implements OnMapReadyCallback {
             mapFragment.getMapAsync(this);
         }
 
+        Button btnOpenMaps = view.findViewById(R.id.btn_openMaps);
+        btnOpenMaps.setOnClickListener(v -> openGoogleMapsApp(latitude, longitude));
+
+
         Button btnSelesai = view.findViewById(R.id.btn_selesai);
         btnSelesai.setOnClickListener(v -> closeFragment());
     }
+
+    private void openGoogleMapsApp(double lat, double lng) {
+        String uri = "geo:" + lat + "," + lng + "?q=" + lat + "," + lng + "(Lokasi Produk)";
+        Intent intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(uri));
+        intent.setPackage("com.google.android.apps.maps");
+
+        if (intent.resolveActivity(requireActivity().getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            // Jika tidak ada Google Maps, buka dengan browser
+            String browserUri = "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(browserUri));
+            startActivity(browserIntent);
+        }
+    }
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {

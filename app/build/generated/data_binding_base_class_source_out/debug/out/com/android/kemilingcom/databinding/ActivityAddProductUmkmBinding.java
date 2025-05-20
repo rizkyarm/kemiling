@@ -26,6 +26,9 @@ public final class ActivityAddProductUmkmBinding implements ViewBinding {
   public final ImageView btnBack3;
 
   @NonNull
+  public final Button btnPilihHeader;
+
+  @NonNull
   public final Button btnPilihMap;
 
   @NonNull
@@ -95,17 +98,18 @@ public final class ActivityAddProductUmkmBinding implements ViewBinding {
   public final TextView textViewImages;
 
   private ActivityAddProductUmkmBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView btnBack3, @NonNull Button btnPilihMap, @NonNull Button btnUploadAll,
-      @NonNull EditText editWA, @NonNull EditText editalamat, @NonNull EditText editdeskripsi,
-      @NonNull EditText editharga, @NonNull EditText editjam, @NonNull EditText editproduk,
-      @NonNull ImageView image1, @NonNull ImageView image2, @NonNull ImageView image3,
-      @NonNull ImageView image4, @NonNull ImageView image5, @NonNull ImageView imageHeader,
-      @NonNull ConstraintLayout main, @NonNull TextView textView10, @NonNull TextView textView12,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView5, @NonNull TextView textViewImageHeader,
-      @NonNull TextView textViewImages) {
+      @NonNull ImageView btnBack3, @NonNull Button btnPilihHeader, @NonNull Button btnPilihMap,
+      @NonNull Button btnUploadAll, @NonNull EditText editWA, @NonNull EditText editalamat,
+      @NonNull EditText editdeskripsi, @NonNull EditText editharga, @NonNull EditText editjam,
+      @NonNull EditText editproduk, @NonNull ImageView image1, @NonNull ImageView image2,
+      @NonNull ImageView image3, @NonNull ImageView image4, @NonNull ImageView image5,
+      @NonNull ImageView imageHeader, @NonNull ConstraintLayout main, @NonNull TextView textView10,
+      @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
+      @NonNull TextView textView15, @NonNull TextView textView5,
+      @NonNull TextView textViewImageHeader, @NonNull TextView textViewImages) {
     this.rootView = rootView;
     this.btnBack3 = btnBack3;
+    this.btnPilihHeader = btnPilihHeader;
     this.btnPilihMap = btnPilihMap;
     this.btnUploadAll = btnUploadAll;
     this.editWA = editWA;
@@ -161,6 +165,12 @@ public final class ActivityAddProductUmkmBinding implements ViewBinding {
       id = R.id.btn_back3;
       ImageView btnBack3 = ViewBindings.findChildViewById(rootView, id);
       if (btnBack3 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnPilihHeader;
+      Button btnPilihHeader = ViewBindings.findChildViewById(rootView, id);
+      if (btnPilihHeader == null) {
         break missingId;
       }
 
@@ -298,10 +308,11 @@ public final class ActivityAddProductUmkmBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAddProductUmkmBinding((ConstraintLayout) rootView, btnBack3, btnPilihMap,
-          btnUploadAll, editWA, editalamat, editdeskripsi, editharga, editjam, editproduk, image1,
-          image2, image3, image4, image5, imageHeader, main, textView10, textView12, textView13,
-          textView14, textView15, textView5, textViewImageHeader, textViewImages);
+      return new ActivityAddProductUmkmBinding((ConstraintLayout) rootView, btnBack3,
+          btnPilihHeader, btnPilihMap, btnUploadAll, editWA, editalamat, editdeskripsi, editharga,
+          editjam, editproduk, image1, image2, image3, image4, image5, imageHeader, main,
+          textView10, textView12, textView13, textView14, textView15, textView5,
+          textViewImageHeader, textViewImages);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
