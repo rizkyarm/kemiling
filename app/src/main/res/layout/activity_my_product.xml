@@ -5,11 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#90b490"
     tools:context=".activityMyProduct">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <ImageView
@@ -37,14 +39,13 @@
 
         <Button
             android:id="@+id/btn_tambah_product_umkm"
-            android:text="Tambah Produk (UMKM)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/btn1"
-            />
+            android:text="Tambah Produk (UMKM)" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/productlist"
