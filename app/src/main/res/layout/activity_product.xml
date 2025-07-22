@@ -108,7 +108,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/grey"
                     android:text="Booking"
-                    android:visibility="gone" />
+                    android:visibility="visible" />
 
                 <Button
                     android:id="@+id/btn_location"

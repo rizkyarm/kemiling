@@ -20,6 +20,7 @@ color ic_launcher_background
 color location_background
 color logo_launcher_background
 color profiles_background
+color splash_background
 color store_button_background
 color white
 dimen activity_horizontal_margin
@@ -28,6 +29,8 @@ drawable account_icon
 drawable after_paid
 drawable back_btn
 drawable background_btn
+drawable bg_beranda
+drawable bg_of_beranda
 drawable blue_btn
 drawable bottom_nav_background
 drawable btn1
@@ -154,6 +157,7 @@ id img_profile
 id indicatorContent
 id linearLayout
 id linearLayout2
+id linearLayout3
 id login
 id main
 id map
@@ -296,5 +300,6 @@ style BottomNavigationViewTextAppearanceInactive
 style CornerImage
 style DialogAnimation
 style FullScreenDialog
+style SplashTheme
 xml backup_rules
 xml data_extraction_rules

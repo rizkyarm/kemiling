@@ -4,7 +4,7 @@
             "outputFile": "com.android.kemilingcom.app-mergeDebugResources-41:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/rar/.gradle/caches/transforms-4/da9f531ba440039f544739b8e168f068/transformed/core-1.13.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/9ee1b783984fb743deea4e701228ef0a/transformed/core-1.13.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/rar/.gradle/caches/transforms-4/f90e95d8003bf68985acc52bb22348b7/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/0da65d133fdd1864bccb7b2c989dc365/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

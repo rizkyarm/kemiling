@@ -176,30 +176,44 @@ public class activityMyProduct extends AppCompatActivity {
                                 String title = productObject.getString("title");
                                 int price = productObject.getInt("price");
 
-                                // Ambil category, default ke UMKM jika tidak ada
-                                String category = productObject.has("category") ?
-                                        productObject.getString("category") : "UMKM";
+                                // Safe parsing category & tickets
+                                String category = productObject.has("category") && !productObject.isNull("category")
+                                        ? productObject.getString("category").trim()
+                                        : "";
 
-                                // Ambil weekday_ticket & weekend_ticket, default ke 0 jika tidak ada
-                                int weekday_ticket = productObject.has("weekday_ticket") ?
-                                        productObject.getInt("weekday_ticket") : 0;
-                                int weekend_ticket = productObject.has("weekend_ticket") ?
-                                        productObject.getInt("weekend_ticket") : 0;
+                                int weekday_ticket = productObject.has("weekday_ticket") && !productObject.isNull("weekday_ticket")
+                                        ? productObject.getInt("weekday_ticket")
+                                        : 0;
+
+                                int weekend_ticket = productObject.has("weekend_ticket") && !productObject.isNull("weekend_ticket")
+                                        ? productObject.getInt("weekend_ticket")
+                                        : 0;
 
                                 String location = productObject.getString("location");
                                 float rating = (float) productObject.getDouble("rating");
                                 String imageUrl = productObject.getString("image_url");
 
-                                // Tambahkan ke list produk dengan category dan ticket prices
-                                productlist.add(new product(id, title, price, weekday_ticket, weekend_ticket, category, location, rating, imageUrl));
+                                productlist.add(new product(
+                                        id,
+                                        title,
+                                        price,
+                                        weekday_ticket,
+                                        weekend_ticket,
+                                        category,
+                                        location,
+                                        rating,
+                                        imageUrl
+                                ));
+
                             }
 
-                            adapter.notifyDataSetChanged(); // Perbarui RecyclerView
+                            adapter.notifyDataSetChanged();
                         } catch (JSONException e) {
                             e.printStackTrace();
                             Log.e("JSON Parsing Error", e.getMessage());
                         }
                     }
+
                 },
                 new Response.ErrorListener() {
                     @Override

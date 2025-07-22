@@ -9,30 +9,38 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.google.android.material.imageview.ShapeableImageView;
+
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
+import java.util.Calendar;
 
 public class productAdapterEdit extends RecyclerView.Adapter<productAdapterEdit.DefaultViewHolder> {
     private Context context;
     private List<product> productList;
     private boolean isActivityMyProduct;
 
-    // Overloaded constructor for backward compatibility
     public productAdapterEdit(Context context, List<product> productList) {
         this.context = context;
         this.productList = productList;
-        this.isActivityMyProduct = false; // Default to false for backward compatibility
+        this.isActivityMyProduct = false;
     }
 
     public productAdapterEdit(Context context, List<product> productList, boolean isActivityMyProduct) {
@@ -53,32 +61,40 @@ public class productAdapterEdit extends RecyclerView.Adapter<productAdapterEdit.
     public void onBindViewHolder(@NonNull DefaultViewHolder holder, int position) {
         product product = productList.get(position);
 
-        // Set data ke tampilan
         holder.tvTitle.setText(product.getTitle());
-        holder.tvPrice.setText("Rp. " + String.format("%,d", product.getPrice()));
 
-        // Cek apakah URL gambar tersedia
+        String category = product.getCategory();
+        Log.d("ADAPTER_DEBUG", "Category: " + category);
+        Log.d("ADAPTER_DEBUG", "Weekday Ticket: " + product.getWeekdayTicket());
+        Log.d("ADAPTER_DEBUG", "Weekend Ticket: " + product.getWeekendTicket());
+
+        Calendar calendar = Calendar.getInstance();
+        int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
+
+        boolean isWeekend = (dayOfWeek == Calendar.SATURDAY || dayOfWeek == Calendar.SUNDAY);
+
+        if (category != null && category.toLowerCase().contains("wisata")) {
+            int harga = isWeekend ? product.getWeekendTicket() : product.getWeekdayTicket();
+            String hargaTiket = "Rp. " + String.format("%,d", harga);
+            holder.tvPrice.setText(hargaTiket);
+        } else {
+            holder.tvPrice.setText("Rp. " + String.format("%,d", product.getPrice()));
+        }
+
         if (product.getImageUrl() != null && !product.getImageUrl().isEmpty()) {
-            Log.d("Glide", "Loading image from: " + product.getImageUrl()); // Debug log
-
-            // Load gambar menggunakan Glide dengan corner radius
             Glide.with(context)
-                    .load(product.getImageUrl()) // Load dari URL
+                    .load(product.getImageUrl())
                     .placeholder(R.raw.cicle_animation)
                     .error(R.raw.cicle_animation)
-                    .override(1100, 750) // Ukuran tetap untuk menghindari lag
-                    .centerCrop() // Crop agar tetap proporsional
+                    .override(1100, 750)
+                    .centerCrop()
                     .into(holder.ivPicture);
-
         } else {
-            // Jika URL kosong, tampilkan gambar default
-            Log.e("Glide", "Image URL is empty, loading default image.");
             Glide.with(context)
                     .load(R.raw.cicle_animation)
                     .into(holder.ivPicture);
         }
 
-        // Handle klik item untuk membuka activity_product
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, activity_product.class);
             intent.putExtra("PRODUCT_ID", product.getId());
@@ -89,9 +105,11 @@ public class productAdapterEdit extends RecyclerView.Adapter<productAdapterEdit.
             intent.putExtra("PRODUCT_IMAGE", product.getImageUrl());
             context.startActivity(intent);
         });
+
+        holder.btnDelete.setOnClickListener(v -> {
+            showDeleteConfirmationDialog(product.getId(), position);
+        });
     }
-
-
 
     @Override
     public int getItemCount() {
@@ -102,13 +120,56 @@ public class productAdapterEdit extends RecyclerView.Adapter<productAdapterEdit.
         ShapeableImageView ivPicture;
         TextView tvTitle;
         TextView tvPrice;
+        ImageView btnDelete;
 
         public DefaultViewHolder(@NonNull View itemView) {
             super(itemView);
             ivPicture = itemView.findViewById(R.id.picture);
             tvTitle = itemView.findViewById(R.id.title);
             tvPrice = itemView.findViewById(R.id.price);
+            btnDelete = itemView.findViewById(R.id.btn_delete);
         }
+    }
+
+    private void showDeleteConfirmationDialog(int productId, int position) {
+        new androidx.appcompat.app.AlertDialog.Builder(context)
+                .setTitle("Konfirmasi Hapus")
+                .setMessage("Apakah Anda yakin ingin menghapusnya?")
+                .setPositiveButton("Ya", (dialog, which) -> deleteProduct(productId, position))
+                .setNegativeButton("Tidak", (dialog, which) -> dialog.dismiss())
+                .show();
+    }
+
+    private void deleteProduct(int productId, int position) {
+        String url = "https://store.kemiling.com/api_deleteproduct.php?id=" + productId;
+
+        RequestQueue queue = Volley.newRequestQueue(context);
+        StringRequest request = new StringRequest(Request.Method.GET, url,
+                response -> {
+                    try {
+                        JSONObject jsonObject = new JSONObject(response);
+                        boolean status = jsonObject.getBoolean("status");
+                        String message = jsonObject.getString("message");
+
+                        if (status) {
+                            productList.remove(position);
+                            notifyItemRemoved(position);
+                            notifyItemRangeChanged(position, productList.size());
+                            Toast.makeText(context, "Produk dihapus", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(context, "Gagal: " + message, Toast.LENGTH_SHORT).show();
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        Toast.makeText(context, "Kesalahan parsing respon", Toast.LENGTH_SHORT).show();
+                    }
+                },
+                error -> {
+                    error.printStackTrace();
+                    Toast.makeText(context, "Terjadi kesalahan koneksi", Toast.LENGTH_SHORT).show();
+                });
+
+        queue.add(request);
     }
 
     private Bitmap getBitmapFromURL(String src) {

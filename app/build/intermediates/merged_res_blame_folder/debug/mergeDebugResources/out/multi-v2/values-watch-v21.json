@@ -4,7 +4,7 @@
             "outputFile": "com.android.kemilingcom.app-mergeDebugResources-41:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/rar/.gradle/caches/transforms-4/f90e95d8003bf68985acc52bb22348b7/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/0da65d133fdd1864bccb7b2c989dc365/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

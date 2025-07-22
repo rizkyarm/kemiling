@@ -33,6 +33,7 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/btn1"
         android:text="Buka Maps"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btn_selesai"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

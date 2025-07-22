@@ -2200,6 +2200,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color splash_background
 color store_button_background
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
@@ -3105,6 +3106,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable back_btn
 drawable background_btn
+drawable bg_beranda
+drawable bg_of_beranda
 drawable blue_btn
 drawable bottom_nav_background
 drawable btn1
@@ -3616,6 +3619,7 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id login
@@ -4819,6 +4823,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
+style SplashTheme
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2

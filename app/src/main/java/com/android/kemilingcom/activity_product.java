@@ -1,16 +1,24 @@
 package com.android.kemilingcom;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.OnBackPressedCallback;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -21,26 +29,28 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.maps.android.PolyUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 
 public class activity_product extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -58,6 +68,13 @@ public class activity_product extends AppCompatActivity implements OnMapReadyCal
     private Button btn_pesan,  btn_location;
 
     private static final String API_URL = "https://store.kemiling.com/api_product_detail.php?id=";
+    private static final String API_ROUTE_URL = "https://store.kemiling.com/api_get_route.php";
+
+    private FusedLocationProviderClient fusedLocationClient;
+    private static final int LOCATION_PERMISSION_REQUEST_CODE = 1002;
+    private double userLat = 0.0;
+    private double userLng = 0.0;
+    private boolean isMapPageSelected = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,259 +92,257 @@ public class activity_product extends AppCompatActivity implements OnMapReadyCal
         viewPager = findViewById(R.id.view_pager);
         viewPagerDescriptionMap = findViewById(R.id.view_pager_description_map);
         titleProduct = findViewById(R.id.title_product);
-        mapView = new MapView(this);
         productPrice = findViewById(R.id.product_price);
-        descriptionText = "Deskripsi produk akan ditampilkan di sini.";
+        descriptionText = "Memuat deskripsi...";
         btnBack = findViewById(R.id.btn_back);
-
         btn_pesan = findViewById(R.id.btn_pesan);
+        btn_location = findViewById(R.id.btn_location);
 
-        // Initialize MapView
+        mapView = new MapView(this);
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
-        // Initialize Volley request queue
         requestQueue = Volley.newRequestQueue(this);
 
-        // Set up ViewPager2 adapters
         imageSliderAdapter = new ImageSliderAdapter(new ArrayList<>());
         viewPager.setAdapter(imageSliderAdapter);
 
         descriptionMapSliderAdapter = new DescriptionMapSliderAdapter();
         viewPagerDescriptionMap.setAdapter(descriptionMapSliderAdapter);
-
-        // Add description and map to the adapter
         descriptionMapSliderAdapter.addPage(descriptionText);
         descriptionMapSliderAdapter.addPage(mapView);
 
-        // Get PRODUCT_ID from Intent
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra("PRODUCT_ID")) {
             int productId = intent.getIntExtra("PRODUCT_ID", -1);
             if (productId != -1) {
                 fetchProductDetails(productId);
-            } else {
-                Log.e("ProductDetail", "ID Produk tidak valid.");
             }
-        } else {
-            Log.e("ProductDetail", "PRODUCT_ID tidak ditemukan dalam intent.");
         }
-        // Back button
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
+
+        getCurrentUserLocation();
+
+        btnBack.setOnClickListener(v -> finish());
+        btn_pesan.setOnClickListener(v -> {
+            Intent checkoutIntent = new Intent(activity_product.this, CheckOut.class);
+            checkoutIntent.putExtra("PRODUCT_ID", getIntent().getIntExtra("PRODUCT_ID", -1));
+            checkoutIntent.putExtra("PRODUCT_TITLE", titleProduct.getText().toString());
+            String priceText = productPrice.getText().toString().replace("Rp. ", "").replace(",", "");
+            checkoutIntent.putExtra("PRODUCT_PRICE", priceText);
+            checkoutIntent.putExtra("img_product", getIntent().getStringExtra("PRODUCT_IMAGE"));
+            startActivity(checkoutIntent);
+        });
+        btn_location.setOnClickListener(v -> {
+            if (isMapPageSelected) {
+                // Jika peta sudah ditampilkan (klik kedua), buka Google Maps
+                openGoogleMapsNavigation(productLat, productLng);
+            } else {
+                // Jika deskripsi yang ditampilkan (klik pertama), pindah ke peta
+                viewPagerDescriptionMap.setCurrentItem(1);
             }
         });
 
-        btn_pesan.setOnClickListener(new View.OnClickListener() {
+        viewPagerDescriptionMap.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(activity_product.this, CheckOut.class);
-
-                // Kirim data produk ke Checkout
-                intent.putExtra("PRODUCT_ID", getIntent().getIntExtra("PRODUCT_ID", -1));
-                intent.putExtra("PRODUCT_TITLE", titleProduct.getText().toString());
-                intent.putExtra("PRODUCT_PRICE", productPrice.getText().toString());
-                intent.putExtra("img_product", getIntent().getStringExtra("img_product"));
-
-                startActivity(intent);
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                // Jika halaman yang dipilih adalah peta (indeks 1), set flag ke true
+                // Jika tidak, set ke false
+                isMapPageSelected = (position == 1);
             }
         });
-
-        btn_location = findViewById(R.id.btn_location);
-        btn_location.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showMapFragment();
-            }
-        });
-
-        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
-            @Override
-            public void handleOnBackPressed() {
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_container);
-
-                if (fragment instanceof FragmentMaps) {
-                    // Jika MapsFragment sedang ditampilkan, tutup fragment
-                    fragmentManager.popBackStack();
-                    findViewById(R.id.fragment_container).setVisibility(View.GONE);
-                } else {
-                    // Jika tidak ada fragment yang ditampilkan, lakukan back seperti biasa
-                    finish();
-                }
-            }
-        });
-
-
     }
 
-    private void showMapFragment() {
-        FragmentMaps mapsFragment = FragmentMaps.newInstance(productLat, productLng);
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
+    private void openGoogleMapsNavigation(double lat, double lng) {
+        if (lat == 0.0 || lng == 0.0) {
+            Toast.makeText(this, "Lokasi tujuan tidak valid.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=" + lat + "," + lng);
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
 
-        transaction.replace(R.id.fragment_container, mapsFragment);
-        transaction.addToBackStack(null);  // Tambahkan ke BackStack agar bisa dihapus nanti
-        transaction.commit();
-
-        findViewById(R.id.fragment_container).setVisibility(View.VISIBLE);
+        if (mapIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(mapIntent);
+        } else {
+            Toast.makeText(this, "Aplikasi Google Maps tidak terpasang.", Toast.LENGTH_LONG).show();
+        }
     }
-
-
-
-
-
 
     private void fetchProductDetails(int productId) {
         String url = API_URL + productId;
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
-                Request.Method.GET,
-                url,
-                null,
-                new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            String status = response.getString("status");
-                            if (status.equals("success")) {
-                                JSONObject product = response.getJSONObject("data");
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
+                response -> {
+                    try {
+                        if (response.getString("status").equals("success")) {
+                            JSONObject product = response.getJSONObject("data");
+                            titleProduct.setText(product.getString("title"));
 
-                                titleProduct.setText(product.getString("title"));
+                            // REVISI: Logika untuk menampilkan harga berdasarkan hari
 
-                                // Check if "prices" object exists
-                                if (product.has("prices")) {
-                                    JSONObject prices = product.getJSONObject("prices");
+                            // 1. Ambil semua jenis harga dari JSON menggunakan kunci yang benar
+                            int price = product.optInt("price", 0);
+                            int weekdayPrice = product.optInt("weekday_price", 0);
+                            int weekendPrice = product.optInt("weekend_price", 0);
 
-                                    // Retrieve prices, handling potential absence
-                                    int weekdayPrice = prices.optInt("weekday_price", 0); // Default to 0 if not found
-                                    int weekendPrice = prices.optInt("weekend_price", 0); // Default to 0 if not found
+                            // 2. Dapatkan hari saat ini
+                            Calendar calendar = Calendar.getInstance();
+                            int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
+                            boolean isWeekend = (dayOfWeek == Calendar.SATURDAY || dayOfWeek == Calendar.SUNDAY);
 
-                                    // Format and display the prices
-                                    String formattedWeekdayPrice = "Rp. " + String.format("%,d", weekdayPrice);
-                                    String formattedWeekendPrice = "Rp. " + String.format("%,d", weekendPrice);
+                            int displayedPrice = 0;
 
-                                    // Display the prices
-                                    productPrice.setText("Weekday: " + formattedWeekdayPrice + "\nWeekend: " + formattedWeekendPrice);
-                                } else {
-                                    // If "prices" object is not present, try to get "weekday_price" directly
-                                    if (product.has("weekday_price") && !product.isNull("weekday_price")) {
-                                        int weekdayPrice = product.getInt("weekday_price");
-                                        String formattedWeekdayPrice = "Rp. " + String.format("%,d", weekdayPrice);
-                                        productPrice.setText(formattedWeekdayPrice);
-                                    } else {
-                                        productPrice.setText("Price not available");
-                                    }
-                                }
-
-                                // Update description
-                                descriptionText = product.getString("description");
-                                descriptionMapSliderAdapter.updateDescription(descriptionText);
-
-                                // Load multiple images into ViewPager2
-                                JSONArray imagesArray = product.getJSONArray("images");
-                                List<String> imageUrls = new ArrayList<>();
-
-                                for (int i = 0; i < imagesArray.length(); i++) {
-                                    String imageUrl = imagesArray.getString(i);
-                                    imageUrls.add(imageUrl);
-
-                                    // Logging URL of each image
-                                    Log.d("Image URL", imageUrl);
-                                    // Test the URL by trying to load it directly
-                                    new Thread(() -> {
-                                        try {
-                                            HttpURLConnection connection = (HttpURLConnection) new URL(imageUrl).openConnection();
-                                            connection.setRequestMethod("GET");
-                                            connection.connect();
-                                            int responseCode = connection.getResponseCode();
-                                            Log.d("URL Test", "URL: " + imageUrl + " Response Code: " + responseCode);
-                                        } catch (IOException e) {
-                                            Log.e("URL Test", "Failed to load URL: " + imageUrl, e);
-                                        }
-                                    }).start();
-                                }
-
-                                imageSliderAdapter.setImageUrls(imageUrls);
-                                imageSliderAdapter.notifyDataSetChanged();
-
-                                // Retrieve latitude and longitude
-                                productLat = product.getDouble("latitude");
-                                productLng = product.getDouble("longitude");
-
-                                // Update map with product location
-                                updateMap();
-                            } else {
-                                Log.e("ProductDetail", "Produk tidak ditemukan.");
+                            // 3. Terapkan logika prioritas
+                            if (isWeekend && weekendPrice > 0) {
+                                displayedPrice = weekendPrice; // Prioritas utama di akhir pekan
+                            } else if (!isWeekend && weekdayPrice > 0) {
+                                displayedPrice = weekdayPrice; // Prioritas utama di hari kerja
+                            } else if (price > 0) {
+                                displayedPrice = price; // Gunakan harga umum jika tiket harian tidak ada
                             }
-                        } catch (JSONException e) {
-                            Log.e("ProductDetail", "Error parsing JSON: " + e.getMessage());
+
+                            // 4. Tampilkan harga yang sudah ditentukan
+                            if (displayedPrice > 0) {
+                                productPrice.setText(String.format(Locale.US, "Rp. %,d", displayedPrice));
+                            } else {
+                                productPrice.setText("Harga Bervariasi");
+                            }
+
+                            // --- Akhir Revisi Harga ---
+
+                            descriptionText = product.getString("description");
+                            // Asumsi Anda punya TextView untuk deskripsi
+                            TextView descriptionTextView = findViewById(R.id.description_text);
+                            if(descriptionTextView != null) {
+                                descriptionTextView.setText(descriptionText);
+                            }
+
+                            // Logika Gambar
+                            JSONArray imagesArray = product.getJSONArray("images");
+                            List<String> imageUrls = new ArrayList<>();
+                            for (int i = 0; i < imagesArray.length(); i++) {
+                                imageUrls.add(imagesArray.getString(i));
+                            }
+                            imageSliderAdapter.setImageUrls(imageUrls);
+                            imageSliderAdapter.notifyDataSetChanged();
+
+                            // Simpan koordinat produk
+                            productLat = product.getDouble("latitude");
+                            productLng = product.getDouble("longitude");
+
+                            if (googleMap != null) {
+                                updateMapAndRoute();
+                            }
+
                         }
+                    } catch (JSONException e) {
+                        Log.e("ProductDetail", "Error parsing JSON: " + e.getMessage());
                     }
                 },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Log.e("ProductDetail", "Gagal mengambil data produk: " + error.getMessage());
-                    }
-                }
+                error -> Log.e("ProductDetail", "Gagal mengambil data produk: " + error.getMessage())
         );
-
-        // Add request to queue
         requestQueue.add(jsonObjectRequest);
     }
 
-
-
-
-
-    private void updateMap() {
-        if (googleMap != null && productLat != 0.0 && productLng != 0.0) {
-            LatLng productLocation = new LatLng(productLat, productLng);
-            googleMap.clear(); // Clear previous markers
-            googleMap.addMarker(new MarkerOptions()
-                    .position(productLocation)
-                    .title("Lokasi Produk"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(productLocation, 15f)); // Zoom to location
+    private void updateMapAndRoute() {
+        if (googleMap == null || productLat == 0.0 || userLat == 0.0) {
+            return;
         }
+
+        LatLng origin = new LatLng(userLat, userLng);
+        LatLng destination = new LatLng(productLat, productLng);
+
+        googleMap.clear();
+        googleMap.addMarker(new MarkerOptions().position(origin).title("Lokasi Anda"));
+        googleMap.addMarker(new MarkerOptions().position(destination).title("Lokasi Tujuan"));
+
+        LatLngBounds.Builder builder = new LatLngBounds.Builder();
+        builder.include(origin);
+        builder.include(destination);
+        LatLngBounds bounds = builder.build();
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngBounds(bounds, 150));
+
+        fetchRouteAndDraw(origin, destination);
+    }
+
+    private void fetchRouteAndDraw(LatLng origin, LatLng destination) {
+        JSONObject requestBody = new JSONObject();
+        try {
+            requestBody.put("origin_lat", origin.latitude);
+            requestBody.put("origin_lng", origin.longitude);
+            requestBody.put("dest_lat", destination.latitude);
+            requestBody.put("dest_lng", destination.longitude);
+        } catch (JSONException e) { e.printStackTrace(); return; }
+
+        JsonObjectRequest routeRequest = new JsonObjectRequest(Request.Method.POST, API_ROUTE_URL, requestBody,
+                response -> {
+                    try {
+                        if (response.getString("status").equals("success")) {
+                            String encodedPolyline = response.getString("polyline");
+                            List<LatLng> decodedPath = PolyUtil.decode(encodedPolyline);
+                            if (googleMap != null) {
+                                googleMap.addPolyline(new PolylineOptions().addAll(decodedPath).width(12).color(Color.BLUE));
+                            }
+                        } else {
+                            // REVISI 2: Tambahkan Toast untuk notifikasi error dari API
+                            String message = response.optString("message", "Gagal mendapatkan info rute");
+                            Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+                        }
+                    } catch (JSONException e) { e.printStackTrace(); }
+                },
+                error -> {
+                    // REVISI 2: Tambahkan Toast untuk notifikasi error jaringan
+                    Log.e("RouteAPI", "Error: " + error.toString());
+                    Toast.makeText(this, "Error: Tidak dapat terhubung ke server rute.", Toast.LENGTH_SHORT).show();
+                }
+        );
+        requestQueue.add(routeRequest);
     }
 
     @Override
     public void onMapReady(GoogleMap map) {
         googleMap = map;
-        updateMap(); // Update map when GoogleMap is ready
+        updateMapAndRoute();
     }
 
-    // Lifecycle methods for MapView
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mapView.onResume();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mapView.onPause();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mapView.onDestroy();
+    private void getCurrentUserLocation() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, LOCATION_PERMISSION_REQUEST_CODE);
+        } else {
+            fusedLocationClient.getLastLocation().addOnSuccessListener(this, location -> {
+                if (location != null) {
+                    userLat = location.getLatitude();
+                    userLng = location.getLongitude();
+                    updateMapAndRoute();
+                }
+            });
+        }
     }
 
     @Override
-    public void onLowMemory() {
-        super.onLowMemory();
-        mapView.onLowMemory();
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                getCurrentUserLocation();
+            } else {
+                Toast.makeText(this, "Izin lokasi dibutuhkan.", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 
+    // Metode lifecycle MapView
     @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        mapView.onSaveInstanceState(outState);
-    }
+    protected void onResume() { super.onResume(); mapView.onResume(); }
+    @Override
+    protected void onPause() { super.onPause(); mapView.onPause(); }
+    @Override
+    protected void onDestroy() { super.onDestroy(); mapView.onDestroy(); }
+    @Override
+    public void onLowMemory() { super.onLowMemory(); mapView.onLowMemory(); }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) { super.onSaveInstanceState(outState); mapView.onSaveInstanceState(outState); }
 }

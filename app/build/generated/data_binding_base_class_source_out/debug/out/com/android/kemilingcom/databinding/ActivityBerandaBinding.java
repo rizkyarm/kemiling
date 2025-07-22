@@ -42,6 +42,9 @@ public final class ActivityBerandaBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
@@ -71,17 +74,18 @@ public final class ActivityBerandaBinding implements ViewBinding {
   private ActivityBerandaBinding(@NonNull ConstraintLayout rootView,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull EditText editSearch,
       @NonNull CircleImageView imageProfile, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull ConstraintLayout main,
-      @NonNull RecyclerView recyclerView, @NonNull SwipeRefreshLayout swipeRefreshLayout,
-      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
-      @NonNull LinearLayout umkmBtn, @NonNull TextView userProfile,
-      @NonNull LinearLayout wisataBtn) {
+      @NonNull ImageView imageView4, @NonNull LinearLayout linearLayout3,
+      @NonNull ConstraintLayout main, @NonNull RecyclerView recyclerView,
+      @NonNull SwipeRefreshLayout swipeRefreshLayout, @NonNull TextView textView6,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull LinearLayout umkmBtn,
+      @NonNull TextView userProfile, @NonNull LinearLayout wisataBtn) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
     this.editSearch = editSearch;
     this.imageProfile = imageProfile;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
+    this.linearLayout3 = linearLayout3;
     this.main = main;
     this.recyclerView = recyclerView;
     this.swipeRefreshLayout = swipeRefreshLayout;
@@ -150,6 +154,12 @@ public final class ActivityBerandaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.recyclerView;
@@ -201,8 +211,8 @@ public final class ActivityBerandaBinding implements ViewBinding {
       }
 
       return new ActivityBerandaBinding((ConstraintLayout) rootView, bottomNavigationView,
-          editSearch, imageProfile, imageView3, imageView4, main, recyclerView, swipeRefreshLayout,
-          textView6, textView7, textView8, umkmBtn, userProfile, wisataBtn);
+          editSearch, imageProfile, imageView3, imageView4, linearLayout3, main, recyclerView,
+          swipeRefreshLayout, textView6, textView7, textView8, umkmBtn, userProfile, wisataBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

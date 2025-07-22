@@ -112,6 +112,10 @@ public class activity_beranda extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.menu_home:
                         // Sudah berada di halaman Home (activity_beranda)
+                        intent = new Intent(activity_beranda.this, activity_beranda.class);
+                        startActivity(intent);
+                        overridePendingTransition(0, 0);
+                        finish(); // Finish current activity
                         return true;
                     case R.id.menu_near:
                         intent = new Intent(activity_beranda.this, activity_terdekat.class);
@@ -183,9 +187,12 @@ public class activity_beranda extends AppCompatActivity {
         btn_wisata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                productList.clear(); // Kosongkan daftar produk sebelum fetch
+                offset = 0;
+                isLastPage = false;
+                selectedCategory = "Tempat Wisata"; // ✅ atur di sini
+                productList.clear();
                 adapter.notifyDataSetChanged();
-                fetchProducts("Tempat Wisata");
+                fetchProducts(selectedCategory);
             }
         });
 
@@ -193,9 +200,12 @@ public class activity_beranda extends AppCompatActivity {
         btn_umkm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                productList.clear(); // Kosongkan daftar produk sebelum fetch
+                offset = 0;
+                isLastPage = false;
+                selectedCategory = "UMKM"; // ✅ atur di sini
+                productList.clear();
                 adapter.notifyDataSetChanged();
-                fetchProducts("UMKM");
+                fetchProducts(selectedCategory);
             }
         });
 
@@ -294,30 +304,33 @@ public class activity_beranda extends AppCompatActivity {
     private void fetchProducts(String category) {
         if (isLoading || isLastPage) return;
 
-        isLoading = true;
-
-        // Simpan kategori hanya jika offset == 0 (panggilan pertama)
-        if (offset == 0) {
+        // Reset pagination jika kategori berubah
+        if (category != null && !category.equals(selectedCategory)) {
+            offset = 0;
+            isLastPage = false;
+            productList.clear();
+            adapter.notifyDataSetChanged();
             selectedCategory = category;
         }
 
-        RequestQueue queue = Volley.newRequestQueue(this);
-        String url;
+        isLoading = true;
 
-        // Gunakan selectedCategory, bukan parameter langsung
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String baseUrl;
+
+        // Pilih base URL berdasarkan kategori
         if (selectedCategory == null) {
-            url = Db_Contract.url_product;
+            baseUrl = Db_Contract.url_product;
         } else if (selectedCategory.equals("Tempat Wisata")) {
-            url = Db_Contract.url_product_wisata;
+            baseUrl = "https://store.kemiling.com/api_wisata.php";
         } else if (selectedCategory.equals("UMKM")) {
-            url = Db_Contract.url_product_umkm;
+            baseUrl = "https://store.kemiling.com/api_umkm.php";
         } else {
-            url = Db_Contract.url_product;
+            baseUrl = Db_Contract.url_product;
         }
 
-        // Tambahkan offset & limit
-        url += "?offset=" + offset + "&limit=" + limit;
-
+        // Tambahkan parameter dengan benar
+        String url = baseUrl + "?offset=" + offset + "&limit=" + limit;
         Log.d("FetchProducts", "Fetching from URL: " + url);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
@@ -328,9 +341,8 @@ public class activity_beranda extends AppCompatActivity {
                     try {
                         JSONArray dataArray = response.getJSONArray("data");
 
-                        if (dataArray.length() == 0) {
+                        if (dataArray.length() < limit) {
                             isLastPage = true;
-                            return;
                         }
 
                         for (int i = 0; i < dataArray.length(); i++) {
@@ -351,9 +363,9 @@ public class activity_beranda extends AppCompatActivity {
 
                         offset += dataArray.length();
                         adapter.notifyDataSetChanged();
-                        isLoading = false;
                     } catch (JSONException e) {
                         e.printStackTrace();
+                    } finally {
                         isLoading = false;
                     }
                 },
@@ -366,6 +378,7 @@ public class activity_beranda extends AppCompatActivity {
         jsonObjectRequest.setShouldCache(false);
         queue.add(jsonObjectRequest);
     }
+
 
 
 

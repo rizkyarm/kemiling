@@ -4,17 +4,7 @@
             "outputFile": "com.android.kemilingcom.app-mergeDebugResources-41:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/rar/.gradle/caches/transforms-4/f90e95d8003bf68985acc52bb22348b7/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "/home/rar/.gradle/caches/transforms-4/6e4b7d52879acee4a36882983a06018c/transformed/material-1.12.0/res/values-v24/values-v24.xml",
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/b30fc817edf3894d72cf80959468c4a2/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -33,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "/home/rar/.gradle/caches/transforms-4/594dc0961fc86a2cf8ad9cc9d58ccb0b/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/0da65d133fdd1864bccb7b2c989dc365/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/home/rar/.gradle/caches/8.11.1/transforms/fcd561cd6a8f228dd2df65cbe87e8fc2/transformed/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -16,7 +16,7 @@
     </string-array>
     <color name="black">#FF000000</color>
     <color name="colorAccent">#4CAF50</color>
-    <color name="colorPrimary">#FFFEFE</color>
+    <color name="colorPrimary">#DEE3E8</color>
     <color name="colorPrimaryDark">#8E8E8E</color>
     <color name="gray">#FF808080</color>
     <color name="green">#336559</color>
@@ -26,6 +26,7 @@
     <color name="location_background">#FFFFFF</color>
     <color name="logo_launcher_background">#FFFFFF</color>
     <color name="profiles_background">#FFFFFF</color>
+    <color name="splash_background">#FFFFFF</color>
     <color name="store_button_background">#FFFFFF</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
@@ -75,5 +76,8 @@
         <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:backgroundDimAmount">0.5</item> 
+    </style>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
     </style>
 </resources>
